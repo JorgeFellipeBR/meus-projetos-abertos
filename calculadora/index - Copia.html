@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/all.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <main>
+        <section>
+            <div>
+                <label for="itxtn1">1<sup>0</sup></label>-
+                <input type="number" name="txtn1" id="itxtn1">
+            </div>
+            <div>
+                <label for="itxtn2">2<sup>0</sup></label>-
+                <input type="number" name="txtn2" id="itxtn2">
+            </div>
+            <div id="botoes">
+                <button onclick="somar()">Somar</button>
+                <button onclick="subtrair()">Subtrair</button>
+                <button onclick="multiplicar()">Multiplicar</button>
+                <button onclick="dividir()">Dividir</button>
+            </div>
+            <div>
+                <p id="res">
+                    Resultado
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>

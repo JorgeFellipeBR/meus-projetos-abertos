@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 640px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 42vh;
+    }
+
+    main p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    header > h1 {
+        font-size: 4.2em;
+    }
+
+    header > p {
+        font-size: 1.4em;
+    }
+
+    nav > a {
+        font-size: 1.4em;
+    }
+
+    main img {
+        width: 42vw;
+        height: 16vh;
+    }
+
+    main p {
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin-top: 311px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 811px) and (max-width: 1279px) {
+    header > h1 {
+        font-size: 3.6em;
+    }
+
+    header > p {
+        font-size: 1.1em;
+    }
+
+    nav > a {
+        font-size: 1.1em;
+    }
+
+    main img {
+        width: 42vw;
+        height: 45vh;
+    }
+
+    main p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 15vh;
+    }
+
+    main p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 844px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width: 895px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 16vh;
+    }
+}
+
+@media screen and (min-width: 914px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 46vh;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    main img {
+        width: 42vw;
+        height: 33vh;
+    }
+
+    main p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header > h1 {
+        font-size: 4.5em;
+    }
+
+    header > p {
+        font-size: 1.3em;
+    }
+
+    nav > a {
+        font-size: 1.3em;
+    }
+
+    main {
+        padding: 5px;
+        width: 70vw;
+    }
+
+    main img {
+        width: 33.5vw;
+        height: 35vh;
+    }
+
+    main p {
+        font-size: 31px;
+    }
+
+    footer {
+        font-size: 16px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="estilos/all.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <img src="imagens/Miles And Peter In Marvels Spider Man 2 Game.jpg" alt="imagem">
+
+    <main>
+        <h1>Login</h1>
+        <section>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div id="usuario">
+                    <label for="iusuario">Usuário</label>
+                    <input type="text" name="usuario" id="iusuario" autocomplete="username" placeholder="Usuário" required maxlength="20">
+                </div>
+                <div id="senha">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Senha" required minlength="8" maxlength="12">
+                </div>
+                <input id="botao" type="submit" value="Cadastrar">
+                <div id="inline">
+                    <input type="checkbox" name="lembrar" id="ilembrar">
+                    <label for="ilembrar">lembrar senha</label>
+                </div>
+                <a href="#">Esquece senha</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

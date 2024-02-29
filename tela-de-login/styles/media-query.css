@@ -1,0 +1,77 @@
+@media screen and (max-width: 1010px) {
+    .logo {
+        margin-left: 10%;
+        flex: 20%;
+    }
+    
+    .botoes {
+        margin-right: 10%;
+        flex: 60%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    header {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        position: relative;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 100%;
+        margin: 0;
+    }
+
+    header form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .imagem {
+        width: 80%;
+        margin: 0;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0;
+    }
+
+    .botoes {
+        display: none;
+    }
+
+    .secao {
+        flex-direction: column;
+    }
+
+    .secao .ctd {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .formulario {
+        margin: 0;
+    }
+
+    header form {
+        width: 80%;
+    }
+
+    section {
+        padding: 0px;
+    }
+
+    .secao .ctd {
+        width: 100%;
+    }
+}

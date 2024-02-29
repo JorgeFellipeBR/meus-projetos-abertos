@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/media-query.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>
+                Agência<br>
+                Digital
+            </h1>
+        </div>
+        <div class="botoes">
+            <a href="#">Sobre Nós</a>
+            <a href="#">Cursos</a>
+            <a href="#">Tecnologias</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="formulario">
+            <form action="cadastro.js" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required autocomplete="username" minlength="5" maxlength="12">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email" required autocomplete="email">
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required autocomplete="new-password" min="8" max="12">
+
+                <input type="submit" value="Cadastre-se">
+            </form>
+        </div>
+        <div class="imagem">
+            <img class="img" src="img/online-world-animate.svg" alt="Imagem sobre tecnologia com animação flutuante">
+        </div>
+    </header>
+
+    <section>
+        <h2>O que você vai aprender com o nosso site</h2>
+        <div class="secao">
+            <div class="ctd">
+                <h3>Desenvolvimento Web</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis molestiae debitis aperiam dolor illo, ab doloremque cupiditate? Qui illum unde obcaecati a rem perferendis. Autem culpa voluptatem quae magnam adipisci!</p>
+            </div>
+            <div class="ctd">
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus perspiciatis saepe iste sapiente iure molestias? Fugiat consectetur aliquam nam quisquam soluta voluptas velit, officiis vel. Animi hic odio qui!</p>
+            </div>
+            <div class="ctd">
+                <h3>Marketing Digital</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptas dicta nulla quos laudantium provident quo quidem, labore officiis id natus, amet distinctio omnis voluptate dignissimos vitae, aut sapiente doloribus!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>Jorge Fellipe</h1>
+        <p>&copy;Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

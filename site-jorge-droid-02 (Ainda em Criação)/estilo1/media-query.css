@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+    div > h1 {
+        font-size: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    div > h1 {
+        font-size: 50px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    div > h1 {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div > h1 {
+        font-size: 35px;
+        margin-right: 25px;
+    }
+
+    div > img {
+        width: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 740px) {
+    div > img {
+        width: 480px;
+        border-radius: 30px;
+        box-shadow: 8px 8px 20px rgba(0, 81, 255, 0.11);
+    }
+    
+}
+
+@media screen and (max-width: 740px) {
+    div > h1 {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+
+    div > img {
+        width: 460px;
+        border-radius: 30px;
+        box-shadow: 8px 8px 20px rgba(0, 81, 255, 0.11);
+    }
+    
+    div > button {
+        padding: 15px;
+        margin-top: 15px;
+        width: 190px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div > h1 {
+        font-size: 50px;
+    }
+
+    div > img {
+        width: 380px;
+    }
+    
+    div > button {
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 190px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    div > img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div > img {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    div > img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    div > h1 {
+        font-size: 45px;
+    }
+
+    div > button {
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 180px;
+        font-size: 18px;
+    }
+
+    div > img {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    div > h1 {
+        font-size: 42px;
+    }
+
+    div > img {
+        width: 260px;
+    }
+}

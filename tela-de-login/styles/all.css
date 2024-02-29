@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azulMarinho: #18044d;
+    --azulClaro: #020eb8;
+    --rosachoque: #ff006a;
+    --lobster: "Lobster", sans-serif;
+    --kanit: "Kanit", sans-serif;
+}
+
+body {
+    background: var(--azulMarinho);
+    color: white;
+    font-family: var(--kanit);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azulClaro);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    margin-left: 10%;
+    flex: 30%;
+    text-align: left;
+    font-family: var(--lobster);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.botoes {
+    margin-right: 10%;
+    flex: 50%;
+    text-align: right;
+    font-size: 16px;
+}
+
+.botoes a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.botoes a:hover {
+    border-bottom: 4px solid var(--azulMarinho);
+}
+
+#botao {
+    margin-left: 2%;
+    background: var(--azulMarinho);
+    border: none;
+}
+
+#botao:hover {
+    background: var(--rosachoque);
+    padding: 10px 21px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formulario {
+    margin-left: 10%;
+    flex: 40%;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.116);
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imagem {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img {
+    margin-top: 8%;
+    width: 90%;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+[type="text"], [type="email"], [type="password"] {
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+}
+
+[type="submit"] {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+    border: none;
+    font-weight: 700;
+} 
+
+[type="submit"]:hover {
+    transform: scale(1.02);
+    background: lightgray;
+} 
+
+section {
+    margin-top: 40px;
+    padding: 40px;
+    margin: 0 5%;
+}
+
+section h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: var(--lobster);
+}
+
+.secao {
+    display: flex;
+}
+
+.secao .ctd {
+    flex: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 4px solid var(--azulClaro);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.secao .ctd:hover {
+    background: var(--rosachoque);
+    transition: .6s;
+}
+
+.secao .ctd h3 {
+    text-align: center;
+}
+
+.secao .ctd p {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+footer {
+    background: var(--azulClaro);
+    margin-top: 100px;
+    padding: 40px;
+    border-top: 4px solid var(--rosachoque);
+    text-align: center;
+}
+
+footer h1 {
+    font-family: var(--lobster);
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+footer p {
+    font-size: 18px;
+}

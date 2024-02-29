@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 640px) and (max-width: 1225px) {
+    body {
+        background-image: linear-gradient(to top, rgb(2, 160, 233), blueviolet);
+        height: 100vh;
+    }
+
+    h1 {
+        padding: 5px;
+    }
+
+    main {
+        height: 78%;
+    }
+
+    main > section {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1220px) {
+    body {
+        background-image: linear-gradient(to top, blue, blueviolet);
+    }
+
+    h1 {
+        font-size: 3.2em;
+    }
+
+    main > section {
+        font-size: 50px;
+    }
+
+    main > section > div > input {
+        font-size: 35px;
+    }
+
+    main > section > #botoes > button {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    main > section > div > p {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 812px) and (max-width: 920px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    main {
+        height: 82.5%;
+    }
+
+    main > section {
+        font-size: 32px;
+    }
+
+    main > section > div > input {
+        font-size: 28px;
+    }
+
+    main > section > #botoes > button {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    main > section > div > p {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background-image: linear-gradient(to top, rgb(2, 160, 233), blueviolet);
+    }
+
+    h1 {
+        font-size: 3.2em;
+    }
+
+    main {
+        width: 50vw;
+    }
+
+    main > section {
+        font-size: 25px;
+        padding-top: 88px;
+    }
+
+    main > section > div > input {
+        font-size: 25px;
+    }
+
+    main > section > #botoes > button {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    main > section > div > p {
+        font-size: 35px;
+    }
+}
