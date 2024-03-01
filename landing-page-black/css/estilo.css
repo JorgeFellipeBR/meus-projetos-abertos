@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    display: flex;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.barra-pesquisa > input {
+    width: 500px;
+    height: 40px;
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.barra-pesquisa > button {
+    background-color: rgba(128, 128, 128, 0.822);
+    border: none;
+    outline: none;
+    border-radius: 0px 18px 18px 0px;
+    width: 60px;
+}
+
+.barra-pesquisa > button:hover {
+    background-color: rgba(173, 173, 173, 0.863);
+}
+
+.barra-icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.icone-logo > img {
+    width: 35px;
+    border-radius: 100%;
+}
+
+section {
+    background-color: black;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-inicial {
+    margin: auto;
+}
+
+.section-div {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
