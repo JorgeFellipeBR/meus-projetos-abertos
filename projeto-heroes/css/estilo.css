@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.imagem-titulo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.imagem-titulo > img{
+    width: 120px;
+}
+
+main {
+    background-color: rgba(48, 48, 48, 0.171);
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+.icones-tamanho {
+    width: 180px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.icones-tamanho:hover {
+    transform: scale(1.05);
+}
+
+.imagens-heroes {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.imagem-heroes-tamanho {
+    width: 180px;
+}
+
+.imagensHeroes {
+    text-align: center;
+}
+
+#detalhesDePersonagem {
+    margin-top: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
