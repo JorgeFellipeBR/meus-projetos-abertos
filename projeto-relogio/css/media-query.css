@@ -59,17 +59,22 @@
 @media screen and (max-width: 635px) {
     .container {
         flex-direction: column;
-        padding: 10px;
+        padding: 5px;
         width: 80%;
     }
 
     .hora,.minutos,.segundos,.milissegundos {
-        padding: 10px;
+        margin: 4px;
+        padding: 5px;
         width: 90%;
     }
 
+    .titulo-hora,.titulo-minuto,.titulo-segundos,.titulo-milissegundos {
+        font-size: 14px;
+    }
+
     p {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     span {
