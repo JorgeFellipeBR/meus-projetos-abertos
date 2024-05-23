@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <title>Cronômetro</title>
+</head>
+<body>
+
+    <!--BOTÃO DE PAUSE
+        <i class="material-symbols-outlined">
+            pause
+        </i>
+    -->
+
+    <div class="main-container">
+        <div class="timer">
+            <p id="horas">00</p>
+            <span>:</span>
+            <p id="minutos">00</p>
+            <span>:</span>
+            <p id="segundos">00</p>
+            <span>:</span>
+            <p id="milissegundos">000</p>
+        </div>
+
+        <div class="botoes">
+            <button>
+                <i class="material-symbols-outlined">
+                    refresh
+                </i>
+            </button>
+
+            <button onclick="Iniciar()">
+                <i class="material-symbols-outlined">
+                    play_arrow
+                </i>
+            </button>
+
+            <button>
+                <i class="material-symbols-outlined">
+                    check_small
+                </i>
+            </button>
+        </div>
+
+        <div class="area-marca">
+            <p class="timer-marca" id="marca-tempo">
+                
+            </p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
