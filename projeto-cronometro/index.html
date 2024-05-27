@@ -17,40 +17,32 @@
     -->
 
     <div class="main-container">
-        <div class="timer">
-            <p id="horas">00</p>
-            <span>:</span>
-            <p id="minutos">00</p>
-            <span>:</span>
-            <p id="segundos">00</p>
-            <span>:</span>
-            <p id="milissegundos">000</p>
+        <div class="timer" id="timer">
+            00:00:00:00
         </div>
 
         <div class="botoes">
-            <button>
+            <button id="reset">
                 <i class="material-symbols-outlined">
                     refresh
                 </i>
             </button>
 
-            <button onclick="Iniciar()">
+            <button id="power" action="start">
                 <i class="material-symbols-outlined">
                     play_arrow
                 </i>
             </button>
 
-            <button>
+            <button id="mark">
                 <i class="material-symbols-outlined">
                     check_small
                 </i>
             </button>
         </div>
-
-        <div class="area-marca">
-            <p class="timer-marca" id="marca-tempo">
-                
-            </p>
+            
+        <div class="area-marca" id="markList">
+            
         </div>
     </div>
 
