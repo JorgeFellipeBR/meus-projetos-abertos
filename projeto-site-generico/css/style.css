@@ -112,6 +112,11 @@ header > .cabecalho-topo {
     height: 100%;
     border: none;
     border-radius: 0px 20px 20px 0px;
+    transition: 0.3s;
+}
+
+.barra-pesquisa > .botao:hover {
+    background-color: rgb(196, 196, 196);
 }
 
 .cabecalho-baixo {
@@ -122,7 +127,7 @@ header > .cabecalho-topo {
 .cabecalho-baixo p {
     color: white;
     font-family: var(--fonte-titulo);
-    font-size: 30px;
+    font-size: 40px;
     text-align: justify;
 }
 
@@ -139,7 +144,7 @@ main {
     padding-top: 20px;
 }
 
-ul {
+.redes-sociais ul {
     list-style-type: none;
 }
 
@@ -164,7 +169,98 @@ li > img:hover {
     padding: 10px 20px;
 }
 
+.conteudo-principal h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    margin: 15px 0px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    margin: 15px 0px;
+}
+
+.conteudo-principal > p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 17px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.conteudo-principal > .imagem {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.imagem > img {
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.400);
+}
+
+.conteudo-principal > .video {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.video > video {
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.400);
+}
+
+.conteudo-principal > .lista {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+
+.lista  ul li {
+    font-size: 20px;
+    font-family: var(--fonte-paragrafo);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
 .outras-noticias {
-    background-color: yellow;
     flex: 20%;
+}
+
+.noticias-lista {
+    padding: 10px;
+}
+
+.noticias-lista ul {
+    list-style-position: inside;
+}
+
+.noticias-lista ul li {
+    margin-bottom: 10px;
+    font-family: var(--fonte-paragrafo);
+}
+
+.noticias-lista ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.noticias-lista ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    background-color: var(--azul-escuro);
+}
+
+footer p {
+    color: white;
+    font-size: 30px;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding: 40px 0px;
 }
