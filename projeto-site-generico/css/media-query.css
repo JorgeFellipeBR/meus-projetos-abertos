@@ -1,0 +1,124 @@
+@media screen and (max-width: 1020px) { /* 890*/
+    .cabecalho-baixo p {
+        font-size: 30px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .redes-sociais {
+        flex: 100%;
+        padding: 10px;
+    }
+
+    .redes-sociais ul {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .conteudo-principal {
+        flex: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.460);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.460);
+        border-left: none;
+        border-right: none;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cabecalho-baixo p {
+        font-size: 28px;
+    }
+
+    .imagem > img {
+        max-width: 90%;
+    }
+
+    .video > video {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .nome-site {
+        display: none;
+    }
+
+    li > img {
+        width: 40px;
+    }    
+
+    .cabecalho-baixo {
+        padding: 40px 20px;
+    }
+
+    .cabecalho-baixo p {
+        font-size: 25px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .conteudo-principal > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .lista  ul li {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 25px;
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .barra-pesquisa {
+        height: 40px;
+    }
+
+    .barra-pesquisa  #txt {
+        width: 220px;
+        padding: 10px;
+    }
+
+    .barra-pesquisa > .botao {
+        width: 40px;
+    }
+
+    .cabecalho-baixo {
+        padding: 40px 20px;
+    }
+
+    .cabecalho-baixo p {
+        font-size: 22px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .barra-pesquisa  #txt {
+        width: 180px;
+        padding: 10px;
+    }
+
+    .barra-pesquisa > .botao {
+        width: 35px;
+    }
+
+    footer p {
+        font-size: 22px;
+    }
+}
