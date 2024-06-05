@@ -14,8 +14,8 @@ body {
 main {
     background-color: beige;
     width: 80%;
-    height: 500px;
-    margin: 50px auto;
+    height: 550px;
+    margin: 40px auto;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.290);
 }
@@ -23,7 +23,7 @@ main {
 main .campo {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 20px;
 }
@@ -43,7 +43,7 @@ main .campo {
 .campo > .botao {
     width: 20%;
     border-radius: 0px 10px 10px 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     background-color: green;
     color: white;
@@ -59,8 +59,8 @@ main .campo {
 .areaMarca {
     border: 2px solid rgba(0, 0, 0, 0.500);
     width: 90%;
-    height: 370px;
-    margin: 20px auto;
+    height: 420px;
+    margin: 30px auto;
     padding-top: 10px;
     border-radius: 10px;
     overflow: auto;
@@ -82,10 +82,13 @@ main .campo {
     font-size: 20px;
     padding: 10px;
     flex: 90%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }
 
 .lista > button {
     flex: 10%;
+    padding: 10px 20px;
     border-radius: 0px 5px 5px 0px;
     border: none;
     background-color: rgb(245, 0, 0);
