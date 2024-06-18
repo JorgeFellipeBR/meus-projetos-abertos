@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto GTA</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
+</head>
+<body>
+    
+    <main>
+        <div class="icones">
+            <img onclick="Franklin()" class="icone-personagem" src="src/images/icon-franklin.jpg" alt="imagem do franklin do gta 5">
+            <img onclick="Luis()" class="icone-personagem" src="src/images/icon-luis.jpg" alt=" imagem do luis do gta the ballad of gay tony">
+            <img onclick="Michael()" class="icone-personagem" src="src/images/icon-michael.jpg" alt="imagem do michael do gta 5">
+            <img onclick="Niko()" class="icone-personagem" src="src/images/icon-niko.jpg" alt="imagem no niko bellic do gta 4">
+            <img onclick="Tommy()" class="icone-personagem" src="src/images/icon-tommy.jpg" alt="imagem do tommy vercetti do gta vice city">
+            <img onclick="Trevor()" class="icone-personagem" src="src/images/icon-trevor.jpg" alt="imagem do trevor de gta 5">
+        </div>
+
+        <div class="cartao-divisao">
+            <ul class="cartao" id="fundo">
+                <li class="nomePersonagem" >
+                    <p id="nome-personagem">
+                        Nome do Personagem
+                    </p>
+                </li>
+                <li class="imagemPersonagem">
+                    <img id="imagem-personagem" src="src/images/Imagem-base.jpg" alt="imagem de interrogação">
+                </li>
+                <li class="descricaoPersonagem" >
+                    <div class="descricao">Descrição</div>
+                    <p id="descricao-personagem">
+                       Descrição do Personagem
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <audio id="meuAudio" src="src/audio/musica-gta.mp3"></audio>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
