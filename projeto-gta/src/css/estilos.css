@@ -7,6 +7,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    min-height: 100vh;
+}
+
 body {
     background-image: url('../images/fundo-base.jpg');
     background-repeat: no-repeat;
@@ -18,7 +22,7 @@ main {
     flex-direction: row;
     width: 900px;
     padding: 10px;
-    margin: 50px auto;
+    margin: 40px auto;
     border: 2px solid white;
     border-radius: 20px;
     background-color: rgba(137, 43, 226, 0.425);

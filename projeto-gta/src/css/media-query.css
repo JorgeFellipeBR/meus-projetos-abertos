@@ -1,0 +1,76 @@
+@media screen and (max-width: 920px) {
+    main {
+        width: 650px;
+    }
+
+    .icones .icone-personagem {
+        width: 95px;
+    }
+
+    .cartao-divisao .cartao {
+        width: 270px;
+        height: 500px;
+    }
+
+    .descricaoPersonagem #descricao-personagem {
+        background-color: white;
+        padding: 5px;
+        text-align: justify;
+        height: 160px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .icones {
+    flex-wrap: nowrap;
+      margin-bottom: 10px;
+      column-gap: 1;
+      row-gap: 0;
+      flex: 100%;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .icones .icone-personagem {
+        width: 15%;
+    }
+
+    .cartao-divisao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+        border-top: 2px solid white;
+        flex: 100%;
+        padding-top: 15px;
+    }
+
+    .cartao-divisao .cartao {
+        row-gap: 10px;
+        width: 280px;
+        height: 450px;
+    }
+
+    #imagem-personagem {
+        width: 100%;
+        max-height: 220px;
+    }
+
+    .descricaoPersonagem #descricao-personagem {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        background-image: url('../images/fundo-celular.jpg');
+    }
+}
