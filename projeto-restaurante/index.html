@@ -6,26 +6,27 @@
     <title>Projeto Restaurante</title>
     <link rel="stylesheet" href="src/css/estilos.css">
     <link rel="stylesheet" href="src/css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho-navegacao">
-            <ul class="navegacao">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Membros</a></li>
-                <li><a href="#">Suporte</a></li>
-            </ul>
+    <nav class="navegacao">
+        <ul class="navegacao-lista">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Membros</a></li>
+            <li><a href="#">Suporte</a></li>
+        </ul>
 
-            <div class="buscador">
-                <input type="text" name="txt" id="txt" placeholder="Pesquisar">
-                <button>Buscar</button>
-            </div>
-
-            <ul class="seus-pedidos">
-                <li class="pedidos" id="pedidos"><button>Seus Pedidos</button></li>
-            </ul>
+        <div class="buscador">
+            <input type="text" name="txt" id="txt" placeholder="Pesquisar">
+            <button>Buscar</button>
         </div>
 
+        <ul class="seus-pedidos">
+            <li class="pedidos" id="pedidos"><button>Seus Pedidos</button></li>
+        </ul>
+    </nav>
+
+    <header class="cabecalho">
         <div class="cabecalho-titulo">
             <h1>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem necessitatibus perspiciatis recusandae suscipit totam laborum incidunt fugit ips fuga!
@@ -37,21 +38,100 @@
     <main class="conteudo-principal">
         <div class="comidas-exemplo">
             <div class="panqueca">
-                <img src="src/images/panqueca.jpg" alt="Imagem de panqueca doce">
+                <img src="src/images/panqueca.jpg" alt="Imagem de uma panqueca doce">
                 <div class="descricao">
-                    <h1>Panqueca</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem pariatur obcaecati ipsa. Corporis placeat a nobis nesciunt esse minus nisi delectus quibusdam? Explicabo repudiandae veritatis dolorem officia ex quo a.</p>
+                    <h1>Panqueca Doce</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem pariatur obcaecati ipsa. Corporis placeat a nobis nesciunt esse minus nisi delectus quibusdam? Explicabo repudiandae veritatis dolorem officia ex quo a.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime error exercitationem aut voluptates ipsam.
+                    </p>
                 </div>
             </div>
 
             <div class="salada">
-                
+                <div class="descricao">
+                    <h1>Salada com legumes</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure tempore at fuga totam. Eligendi sed error cupiditate earum, sapiente, omnis natus cum nisi, temporibus ab deserunt optio sint atque at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate amet ab vel tenetur? Modi consequatur placeat.
+                    </p>
+                </div>
+                <img src="src/images/salada.jpg" alt="Imagem de uma salada com legumes">
+            </div>
+        </div>
+
+        <div class="cardapio">
+            <div class="cardapio-opcoes">
+                <h2>Cardápio de Hoje</h2>
+                <div class="cardapio-alimentos">
+
+                    <div class="hamburger">
+                        <img src="src/images/hamburger.jpg" alt="Imagem de um Hamburger">
+                        <p>Hamburger Vegetariano</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                    <div class="lasanha-vegetariana">
+                        <img src="src/images/lasanha-vegetariana.jpg" alt="Imagem de uma lasanha">
+                        <p>Lasanha Vegetariana</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                    <div class="macarrao">
+                        <img src="src/images/macarrao.jpg" alt="Imagem de um macarrão">
+                        <p>Macarrão ao Molho</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                    <div class="sorvete">
+                        <img src="src/images/sorvete.jpg" alt="Imagem de um sorvete">
+                        <p>Sorvete</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                    <div class="panqueca-doce">
+                        <img src="src/images/panqueca-cardapio.jpg" alt="Imagem de uma panqueca">
+                        <p>Panqueca Doce</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                    <div class="salada-vegana">
+                        <img src="src/images/salada-vegana.jpg" alt="Imagem de uma salada vegana">
+                        <p>Salada Vegana</p>
+                        <button>
+                            <i class="material-symbols-outlined">
+                                add
+                            </i>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </main>
 
     <footer class="rodape">
-
+        <p>&copy;JorgeFellipe</p>
     </footer>
 
     <script src="src/js/script.js"></script>

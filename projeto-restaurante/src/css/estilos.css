@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--fonteParagrafo);
 }
 
 :root {
@@ -12,20 +13,18 @@
     --fonteNomeComida: "Playwrite VN", cursive;
 }
 
-.cabecalho {
-    width: 100%;
-}
-
-.cabecalho .cabecalho-navegacao {
+.navegacao {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px;
     background-color: black;
     border-bottom: 2px solid white;
+    position: sticky;
+    top: 0;
 }
 
-.cabecalho-navegacao .navegacao {
+.navegacao .navegacao-lista {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -35,7 +34,7 @@
     flex: 30%;
 }
 
-.cabecalho-navegacao .navegacao li a {
+.navegacao .navegacao-lista li a {
     color: white;
     text-decoration: none;
     font-family: var(--fonteTitulo);
@@ -44,7 +43,7 @@
     transition: .2s;
 }
 
-.cabecalho-navegacao ul li a:hover {
+.navegacao .navegacao-lista li a:hover {
     color: lightgray;
 }
 
@@ -127,24 +126,156 @@
     padding: 10px;
 }
 
-.panqueca {
+.panqueca, .salada {
     display: flex;
-    background-color: orange;
-    padding: 30px;
+    gap: 20px;
+    padding: 20px 0;
 }
 
 .panqueca img {
-    width: 600px;
+    width: 40%;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-left: 10%;
 }
 
-.descricao h1 {
+.salada img {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+
+.panqueca .descricao {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.salada .descricao {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.panqueca {
+    background-color: orange;
+}
+
+.salada {
+    background-color: black;
+}
+
+.panqueca .descricao h1 {
     font-family: var(--fonteNomeComida);
     font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
 }
 
-.descricao p {
-    font-size: 20px;
+.panqueca .descricao p {
+    font-size: 22px;
     font-family: var(--fonteParagrafo);
+    color: black;
+}
+
+.salada .descricao h1 {
+    font-family: var(--fonteNomeComida);
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.salada .descricao p {
+    font-size: 22px;
+    font-family: var(--fonteParagrafo);
+    color: white;
+}
+
+.cardapio {
+    background-color: rgb(17, 17, 17);
+}
+
+.cardapio .cardapio-opcoes {
+    background-color: orange;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 20px 20px 20px;
+}
+
+.cardapio .cardapio-opcoes h2 {
+    font-family: var(--fonteTitulo);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cardapio .cardapio-opcoes .cardapio-alimentos {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+}
+
+.cardapio .cardapio-opcoes .hamburger, .lasanha-vegetariana, .macarrao, .sorvete, .panqueca-doce, .salada-vegana {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+}
+
+.cardapio .cardapio-opcoes .hamburger p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.cardapio .cardapio-opcoes .lasanha-vegetariana p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.cardapio .cardapio-opcoes .macarrao p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.cardapio .cardapio-opcoes .sorvete p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.cardapio .cardapio-opcoes .panqueca-doce p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.cardapio .cardapio-opcoes .salada-vegana p {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+}
+
+.rodape {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.rodape p {
+    color: white;
+    font-family: var(--fonteNomeComida);
+    font-size: 20px;
+    text-align: center;
 }
