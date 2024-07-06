@@ -13,6 +13,76 @@
     --fonteNomeComida: "Playwrite VN", cursive;
 }
 
+.lista-pedidos {
+    display: none;
+    row-gap: 10px;
+    background-color: rgb(17, 17, 17);
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 95px;
+    right: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.470);
+    overflow: auto;
+    z-index: 1;
+}
+
+.lista-pedidos .texto {
+    display: flex;
+    align-items: center;
+}
+
+.texto > a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+
+.lista-pedidos .texto-pedidos {
+    color: white;
+    padding: 8px;
+    font-family: var(--fonteTitulo);
+    font-size: 25px;
+}
+
+.lista-pedidos .pedido {
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.titulo-pedido {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: var(--fonteTitulo);
+}
+
+.botao {
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.botao:hover {
+    background-color: rgb(243, 16, 16);
+    transform: scale(1.02);
+}
+
+.adicionar {
+    display: block;
+}
+
 .navegacao {
     display: flex;
     flex-direction: row;
@@ -266,6 +336,18 @@
     align-items: center;
     font-family: var(--fonteTitulo);
     font-size: 20px;
+}
+
+.botoes {
+    background-color: green;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.botoes:hover {
+    background-color: rgb(0, 189, 0);
 }
 
 .rodape {
