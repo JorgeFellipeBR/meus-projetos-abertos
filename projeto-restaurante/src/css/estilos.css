@@ -199,6 +199,7 @@
 .panqueca, .salada {
     display: flex;
     gap: 20px;
+    height: 350px;
     padding: 20px 0;
 }
 
@@ -280,6 +281,8 @@
 .cardapio .cardapio-opcoes .cardapio-alimentos {
     background-color: red;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 40px;
     row-gap: 25px;

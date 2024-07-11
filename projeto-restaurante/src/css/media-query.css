@@ -1,0 +1,496 @@
+@media screen and (max-width: 1074px) {
+    .navegacao .navegacao-lista li a {
+        font-size: 22px;
+        letter-spacing: 1px;
+        gap: 30px;
+    }
+
+    .buscador input {
+        padding: 12px;
+    }
+
+    .panqueca .descricao h1 {
+        font-size: 30px;
+    }
+
+    .panqueca img {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 10%;
+    }
+
+    .salada .descricao h1 {
+        font-size: 30px;
+    }
+    
+    .salada img {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        margin-right: 10%;
+    }
+
+    .panqueca .descricao p {
+        font-size: 20px;
+        font-family: var(--fonteParagrafo);
+        color: black;
+    }
+
+    .salada .descricao p {
+        font-size: 20px;
+        font-family: var(--fonteParagrafo);
+        color: white;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger, .lasanha-vegetariana, .macarrao, .sorvete, .panqueca-doce, .salada-vegana {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 45%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .buscador {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 40%;
+        border-radius: 15px;
+    }
+    
+    .buscador input {
+        width: 50%;
+        padding: 15px;
+        font-size: 18px;
+    }
+    
+    .buscador > button {
+        width: 30%;
+        background-color: orange;
+        font-size: 25px;
+        padding: 6px;
+    }
+
+    .cabecalho-titulo h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .cabecalho-titulo h1 {
+        font-size: 26px;
+    }
+
+    .panqueca .descricao h1 {
+        font-size: 25px;
+    }
+
+    .salada .descricao h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .cabecalho-titulo h1 {
+        font-size: 25px;
+    }
+
+    .panqueca .descricao h1 {
+        font-size: 20px;
+    }
+
+    .salada .descricao h1 {
+        font-size: 20px;
+    }
+
+    .panqueca .descricao p {
+        font-size: 18px;
+        font-family: var(--fonteParagrafo);
+        color: black;
+    }
+
+    .salada .descricao p {
+        font-size: 18px;
+        font-family: var(--fonteParagrafo);
+        color: white;
+    }
+
+    .panqueca img {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .salada img {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .panqueca, .salada {
+        height: 300px;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger p {
+        font-size: 16px;
+    }
+    
+    .cardapio .cardapio-opcoes .lasanha-vegetariana p {
+        font-size: 16px;
+    }
+    
+    .cardapio .cardapio-opcoes .macarrao p {
+        font-size: 16px;
+    }
+    
+    .cardapio .cardapio-opcoes .sorvete p {
+        font-size: 16px;
+    }
+    
+    .cardapio .cardapio-opcoes .panqueca-doce p {
+        font-size: 16px;
+    }
+    
+    .cardapio .cardapio-opcoes .salada-vegana p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cabecalho-titulo h1 {
+        font-size: 24px;
+    }
+
+    .panqueca .descricao h1 {
+        font-size: 20px;
+    }
+
+    .salada .descricao h1 {
+        font-size: 20px;
+    }
+
+    .panqueca .descricao p {
+        font-size: 15px;
+        font-family: var(--fonteParagrafo);
+        color: black;
+    }
+
+    .salada .descricao p {
+        font-size: 15px;
+        font-family: var(--fonteParagrafo);
+        color: white;
+    }
+
+    .panqueca img {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .salada img {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .panqueca, .salada {
+        height: 250px;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .lasanha-vegetariana p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .macarrao p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .sorvete p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .panqueca-doce p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .salada-vegana p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .lista-pedidos {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 120px;
+        right: 90px;
+    }
+
+    .navegacao {
+        flex-wrap: wrap;
+        padding: 0 0 15px 0;
+        row-gap: 10px;
+        border-bottom: 2px solid white;
+    }
+
+    .buscador {
+        flex: 50%;
+        align-items: center;
+    }
+
+    .buscador input {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .buscador > button {
+        width: 30%;
+        background-color: orange;
+        font-size: 25px;
+        padding: 3px;
+    }
+
+    .seus-pedidos {
+        flex: 50%;
+    }
+
+    .seus-pedidos .pedidos button {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .navegacao .navegacao-lista {
+        flex: 100%;
+        padding: 5px;
+        background-color: red;
+    }
+
+    .cabecalho-titulo h1 {
+        font-size: 22px;
+    }
+
+    .panqueca, .salada {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .panqueca .descricao h1 {
+        font-size: 20px;
+    }
+
+    .salada .descricao h1 {
+        font-size: 20px;
+    }
+
+    .panqueca .descricao p {
+        font-size: 15px;
+        font-family: var(--fonteParagrafo);
+        color: black;
+    }
+
+    .salada .descricao p {
+        font-size: 15px;
+        font-family: var(--fonteParagrafo);
+        color: white;
+    }
+
+    .panqueca .descricao h1 {
+        margin-bottom: 8px;
+    }
+
+    .salada .descricao h1 {
+        margin-bottom: 8px;
+    }
+
+    .panqueca img {
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+    .salada img {
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0;
+    }
+
+    .panqueca .descricao {
+        width: 80%;
+        margin: 0;
+    }
+    
+    .salada .descricao {
+        width: 80%;
+        margin: 0;
+    }
+
+    .panqueca, .salada {
+        height: 450px;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .lasanha-vegetariana p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .macarrao p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .sorvete p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .panqueca-doce p {
+        font-size: 14px;
+    }
+    
+    .cardapio .cardapio-opcoes .salada-vegana p {
+        font-size: 14px;
+    }
+
+    .rodape p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 615px) { 
+    .cabecalho-titulo h1 {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .hamburger, .lasanha-vegetariana, .macarrao, .sorvete, .panqueca-doce, .salada-vegana {
+        width: 80%;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger p {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .lasanha-vegetariana p {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .macarrao p {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .sorvete p {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .panqueca-doce p {
+        font-size: 20px;
+    }
+    
+    .cardapio .cardapio-opcoes .salada-vegana p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buscador > button {
+        font-size: 22px;
+        padding: 5px;
+    }
+
+    .panqueca img {
+        max-width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+    .salada img {
+        max-width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .lista-pedidos {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 120px;
+        right: 20px;
+    }
+
+    .cabecalho-titulo {
+        padding:20px;
+    }
+
+    .panqueca img {
+        max-width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+    .salada img {
+        max-width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 0;
+    }
+
+    .panqueca, .salada {
+        height: 410px;
+    }
+
+    .cardapio .cardapio-opcoes .hamburger p {
+        font-size: 15px;
+    }
+    
+    .cardapio .cardapio-opcoes .lasanha-vegetariana p {
+        font-size: 15px;
+    }
+    
+    .cardapio .cardapio-opcoes .macarrao p {
+        font-size: 15px;
+    }
+    
+    .cardapio .cardapio-opcoes .sorvete p {
+        font-size: 15px;
+    }
+    
+    .cardapio .cardapio-opcoes .panqueca-doce p {
+        font-size: 15px;
+    }
+    
+    .cardapio .cardapio-opcoes .salada-vegana p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .buscador > button {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .cardapio .cardapio-opcoes {
+        background-color: orange;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 20px 20px 20px;
+    }
+}
