@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/fundo-base.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.420);
+    column-gap: 15px;
+    background-color: black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 100px;
+}
