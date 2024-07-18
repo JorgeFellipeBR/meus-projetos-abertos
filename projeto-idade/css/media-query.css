@@ -1,0 +1,39 @@
+@media screen and (max-width: 530px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main-container .campos-input .generos li label {
+        font-size: 16px;
+    }
+
+    .main-container .imagem img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .main-container {
+        row-gap: 30px;
+    }
+
+    .main-container .campos-input .generos li label {
+        font-size: 14px;
+    }
+
+    .main-container .imagem img {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .main-container .imagem img {
+        width: 240px;
+    }
+    
+    .main-container .campos-input .generos {
+        column-gap: 80px;
+    }
+}
