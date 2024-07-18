@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Idade</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body>
+    <div class="main-container">
+        <div class="imagem">
+            <img src="image/imagem-base.jpg" alt="Imagem de interrogação" id="imagemFoto">
+        </div>
+        <div class="campos-input">
+            <ul class="generos">
+                <li>
+                    <input type="radio" name="genero" id="generoMasculino">
+                    <label for="generoMasculino">Masculino</label>
+                </li>
+                <li>
+                    <input type="radio" name="genero" id="generoFeminino">
+                    <label for="generoFeminino">Feminino</label>
+                </li>
+            </ul>
+            <div class="idade">
+                <input type="number" name="Idade" id="idade" placeholder="Coloque sua idade aqui" min="0" max="100" required>
+                <button id="botao">
+                    <i class="material-symbols-outlined">
+                        check_circle
+                    </i>
+                </button>
+            </div>
+        </div>
+        <p class="texto" id="texto">
+            
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
