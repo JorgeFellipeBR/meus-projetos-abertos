@@ -1,0 +1,37 @@
+@media screen and (max-width: 620px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main-container .barra-pesquisa input {
+        font-size: 13px;
+    }
+    
+    .main-container .barra-pesquisa button {
+        font-size: 15px;
+    }
+
+    .main-container .nome-jogo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-container .barra-pesquisa input {
+        font-size: 12px;
+    }
+    
+    .main-container .barra-pesquisa button {
+        font-size: 13px;
+    }
+
+    .main-container .imagem img {
+        width: 220px;
+    }
+
+    .main-container .nome-jogo {
+        font-size: 14px;
+    }
+}
