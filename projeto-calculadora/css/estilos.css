@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, blue, purple);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.400);
+}
+
+.main-container .campos-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container .campos-input input[type=number] {
+    width: 40%;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 50px;
+}
+
+.main-container .campos-input span {
+    font-size: 50px;
+}
+
+.main-container .botoes {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.main-container .botoes button {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    transition: .2s;
+}
+
+.main-container .botoes button:hover {
+    transform: scale(1.02);
+    background-color: darkblue;
+    color: white;
+}
+
+.main-container .resposta {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .resposta .res {
+    font-size: 26px;
+    font-weight: 600;
+    color: red;
+}
