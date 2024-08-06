@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    box-shadow : inset 0px 0px 100px 100px rgba(0, 0, 0, 0.500);
+    background-image: linear-gradient(to right,blue, purple);
+    background-repeat: no-repeat; 
+    background-size: cover;
+     background-position: top center;
+    transition: .1s;
+}
+
+.sinopse-personagem {
+    display: none;
+}
+
+.aparecer {
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 220px;
+    row-gap: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 15px;
+    width: 480px;
+    border-radius: 10px;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+}
+
+.nome-personagem {
+    text-align: center;
+}
+
+.descricao-personagem {
+    font-size: 20px;
+}
+
+.inputRadios {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 80px;
+    width: 250px;
+}

@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     row-gap: 20px;
     background-color: white;
-    max-width: 500px;
+    width: 530px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.400);
