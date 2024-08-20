@@ -1,0 +1,28 @@
+@media screen and (max-width: 550px) {
+    .aparecer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aparecer .nomeFilme {
+        color: white;
+        font-size: 20px;
+    }
+
+    .aparecer .iframe {
+        height: auto;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    main .favoritos .filmes img {
+        width: 120px;
+    }
+}

@@ -58,7 +58,7 @@ reiLeao2.addEventListener('click', function() {
 deadpool.addEventListener('click', function() {
     cardSinopse.classList.add('aparecer');
     cardSinopse.classList.remove('cardSinopse');
-    nomeFilme.innerHTML = 'DeadPool';
+    nomeFilme.innerHTML = 'Deadpool';
     iframe.src = 'https://www.youtube.com/embed/Q9X-bAE8KTc?si=sXxMw5YJeJwB4YMU';
     sinopseFilme.innerHTML = 'Wade Wilson é um ex-agente especial que passou a trabalhar como mercenário. Seu mundo é destruído quando um cientista maligno o tortura e o desfigura completamente. O experimento brutal transforma Wade em Deadpool, que ganha poderes especiais de cura e uma força aprimorada. Com a ajuda de aliados poderosos e um senso de humor mais desbocado e cínico do que nunca, o irreverente anti-herói usa habilidades e métodos violentos para se vingar do homem que quase acabou com a sua vida.';
 });
@@ -66,7 +66,7 @@ deadpool.addEventListener('click', function() {
 deadpool2.addEventListener('click', function() {
     cardSinopse.classList.add('aparecer');
     cardSinopse.classList.remove('cardSinopse');
-    nomeFilme.innerHTML = 'DeadPool 2';
+    nomeFilme.innerHTML = 'Deadpool 2';
     iframe.src = 'https://www.youtube.com/embed/Z_TC1T8MS9g?si=HkXM06tDMX7H0ucv';
     sinopseFilme.innerHTML = 'O supersoldado Cable vem do futuro com a missão de assassinar o jovem mutante Russel e o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo. Para isso, ele recruta seu velho amigo Colossus e forma o novo grupo X-Force, sempre com o apoio do fiel escudeiro Dopinder.';
 });
@@ -74,7 +74,7 @@ deadpool2.addEventListener('click', function() {
 deadpool3.addEventListener('click', function() {
     cardSinopse.classList.add('aparecer');
     cardSinopse.classList.remove('cardSinopse');
-    nomeFilme.innerHTML = 'DeadPool e Wolverine';
+    nomeFilme.innerHTML = 'Deadpool e Wolverine';
     iframe.src = 'https://www.youtube.com/embed/dEbe0rS4Z2A?si=DR8CfwbSdt9Irco8';
     sinopseFilme.innerHTML = 'Wolverine está se recuperando quando cruza seu caminho com Deadpool. Juntos, eles formam uma equipe e enfrentam um inimigo em comum.';
 });
@@ -183,10 +183,102 @@ eternos.addEventListener('click', function() {
     sinopseFilme.innerHTML = 'Eternos são seres super dotados com características como imortalidade e manipulação de energia cósmica, e eles são frutos de experiências fracassadas de seu próprio criador, o Celestial Arishem, desde a criação da Terra há milhões de anos. Destinados a salvar o mundo e a raça humana dos Deviantes, seres também criados pelo Celestial, os Eternos então derrotam tais seres e seguem caminhos diferentes, esperando que seu criador volte com boas novas. Mas após séculos e milênios aguardando ele, o grupo de heróis imortais agora precisa se preparar para uma nova ameaça, e precisam lutar contra os Deviantes novamente para garantir a segurança da humanidade. Muitos conflitos internos podem surgir, entre o amor que sentem pela Terra e a necessidade de protegê-la acima de tudo, e a fé naquilo que está acima deles.';
 });
 
+heartstopper.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Heartstopper';
+    iframe.src = 'https://www.youtube.com/embed/SBo7vW6CtOc?si=6-sRdC2gFdeL_9Lj';
+    sinopseFilme.innerHTML = 'Nesta série sobre amadurecimento, os adolescentes Charlie e Nick descobrem que são mais que apenas amigos e precisam lidar com as dificuldades da vida escolar e amorosa.';
+});
+
+fleabag.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Fleabag';
+    iframe.src = 'https://www.youtube.com/embed/4f3y0t3EaCg?si=rwSct9F2yfpZHU0g';
+    sinopseFilme.innerHTML = 'Fleabag é uma jovem adulta lidando com problemas quase universais sob o ponto de vista feminino: problemas de relacionamento, frustração sexual e profissional, conflitos familiares. Uma mulher moderna vivendo em Londres, ela está tentando curar uma ferida enquanto recusa ajuda daqueles à sua volta, mantendo seu perfil intimidante o mais intacto possível.';
+});
+
+entrevistaVampiro.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Entrevista com o Vampiro';
+    iframe.src = 'https://www.youtube.com/embed/khBcT3S1hPM?si=v-PJROc3Rvpy4OM-';
+    sinopseFilme.innerHTML = 'Baseado na obra de Anne Rice, Interview With The Vampire acompanha o vampiro Louis, um vampiro centenário que decide contar sua história de vida para um reporter. Transformado em monstro por Lestat, Louis é condenado a eternidade como uma criatura imortal com uma vontade incontrolável por sangue humano. Em conflito com sua nova realidade, ele tenta se alimentar apenas de animais, mas sua relação com Lestat o influencia a experimentar humanos e Louis começa a perder resquícios de sua humanidade.';
+});
+
+southPark.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'South Park';
+    iframe.src = 'https://www.youtube.com/embed/B6xooKpoc4g?si=PJNhAffUs6fP6XKd';
+    sinopseFilme.innerHTML = 'A série animada segue a vida de quatro estudantes de boca suja e falantes que moram em uma cidade do Colorado – onde frequentemente ocorrem situações estranhas.';
+});
+
+xmen97.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'X-Men 97';
+    iframe.src = 'https://www.youtube.com/embed/xlptXikE7X0?si=uBti2OU6POVbxnlw';
+    sinopseFilme.innerHTML = 'É um Revival de X-Men (1992–1997), continuando a história dos X-Men que enfrentam novos desafios após a perda de seu líder, o Professor X.';
+});
+
+jujutsuKaisen.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Jujutsu Kaisen';
+    iframe.src = 'https://www.youtube.com/embed/ynr6gnyu9NE?si=Yk2HcWvf6O1HdC05';
+    sinopseFilme.innerHTML = 'Jujutsu Kaisen é uma jornada épica que começa com Yuji Itadori, um estudante colegial comum que tem sua vida transformada após um encontro fatídico com o sobrenatural. Quando Yuji acidentalmente liberta uma terrível maldição contida em um artefato amaldiçoado, ele se vê imerso em um mundo de trevas e perigo.';
+});
+
+given.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Given';
+    iframe.src = 'https://www.youtube.com/embed/3xVRTHbCt1A?si=SEEzDOm_9jex-m83';
+    sinopseFilme.innerHTML = 'A história segue um grupo de quatro alunos de uma banda de rock amadora e as relações românticas que se formam entre eles: entre o guitarrista Ritsuka Uenoyama e o vocalista Mafuyu Satō, e entre o baixista Haruki Nakayama e o baterista Akihiko Kaji.';
+});
+
+incrivelGumball.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Incrível Mundo de Gumball';
+    iframe.src = 'https://www.youtube.com/embed/On_IHVGEU6E?si=WvOT10uLVz43rYM7';
+    sinopseFilme.innerHTML = 'O Incrível Mundo de Gumball acompanha o gato azul Gumball Watterson, de 12 anos, e sua família em suas aventuras e confusões na cidade de Elmore. Sempre acompanhado de seu irmão Darwin, eles navegam as brincadeiras e dilemas da pré-adolescência em uma cidade repleta de criaturas peculiares.';
+});
+
+ben10.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Ben 10';
+    iframe.src = 'https://www.youtube.com/embed/z0yzRwCFblA?si=ALSjjy0qlBt7hbT8';
+    sinopseFilme.innerHTML = 'Ben 10 é um desenho do Cartoon Network que acompanha Ben Tennyson, um menino de dez anos viajando pelo Estados Unidos com o avô e a prima. Depois encontrar um misterioso aparelho em formato de relógio chamado Omnitrix, Ben ganha a habilidade de se transformar em vários alienígenas com poderes incríveis.';
+});
+
+chris.addEventListener('click', function() {
+    cardSinopse.classList.add('aparecer');
+    cardSinopse.classList.remove('cardSinopse');
+    nomeFilme.innerHTML = 'Todo Mundo Odeia o Chris';
+    iframe.src = 'https://www.youtube.com/embed/kRsI8kGxtxM?si=9WwNMZCxSUNxF7td';
+    sinopseFilme.innerHTML = 'Em 1982, Chris completa 13 anos e muda-se com a sua família para Bedford-Stuyvesant, no Brooklyn. Lá, Chris vive situações corriqueiras da vida de um adolescente, tanto nas histórias que realmente acontecem quanto nos pensamentos que são expostos de uma forma humorística.';
+});
+
 
 // Fechar card com sinopse do filme
 fechar.addEventListener('click', function() {
     cardSinopse.classList.remove('aparecer');
     cardSinopse.classList.add('cardSinopse');
     iframe.src = null;
+});
+
+// Tocar música de fundo
+document.addEventListener('DOMContentLoaded', function() {
+    audio.muted = true;
+    audio.play();
+
+    document.addEventListener('click', function () {
+        audio.muted = false;
+        audio.play();
+        audio.volume = 0.05;
+    });
 });
