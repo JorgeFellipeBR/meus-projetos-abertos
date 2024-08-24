@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+VN:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor1: rgb(31, 57, 59);
+    --cor2: rgb(16, 29, 31);
+    --cor3: rgb(0, 187, 72);
+    --cor4: rgb(0, 138, 53);
+    --fonteCabecalho: "Mukta", sans-serif;
+    --fonteRodape: "Playwrite VN", system-ui;
+}
+
+.aparecer {
+    display: block;
+    padding: 10px;
+    background-color: rgb(94, 94, 94);
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.384);
+    z-index: 1;
+    transition: .2s;
+}
+
+.contratoUso {
+    display: none;
+}
+
+.aparecer .divisao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.aparecer .divisao .fechar {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aparecer .divisao .fechar:hover {
+    color: rgb(27, 27, 27);
+}
+
+.aparecer p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-color: var(--cor2);
+    padding: 8px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonteCabecalho);
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main .imagem,.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+    height: calc(100vh - 69px - 50px);
+}
+
+main .imagem {
+    border-right: 1px solid white;
+}
+
+main .imagem img {
+    width: 80%;
+}
+
+main .formulario form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 60%;
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.425);
+}
+
+main .formulario form .usuario,.email,.senha {
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario label {
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonteCabecalho);
+}
+
+.usuario input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: 0;
+    transition: .2s;
+}
+
+.usuario input:focus {
+    transform: scale(1.02);
+}
+
+.email label {
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonteCabecalho);
+}
+
+.email input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: 0;
+    transition: .2s;
+}
+
+.email input:focus {
+    transform: scale(1.02);
+}
+
+.senha label {
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonteCabecalho);
+}
+
+.senha input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: 0;
+    transition: .2s;
+}
+
+.senha input:focus {
+    transform: scale(1.02);
+}
+
+.formulario .botao input {
+    background-color: var(--cor3);
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.formulario .botao input:hover {
+    background-color: var(--cor4);
+    transform: scale(1.02);
+}
+
+.formulario .outroRecurso {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.formulario .outroRecurso .termos {
+    display: flex;
+    column-gap: 10px;
+}
+
+.formulario .outroRecurso .termos .contrato {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario .outroRecurso .termos .contrato:hover {
+    text-decoration: underline;
+}
+
+.formulario .outroRecurso .esqueciSenha {
+    color: white;
+    text-decoration: none;
+    width: 160px;
+}
+
+.formulario .outroRecurso .esqueciSenha:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor2);
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    font-family: var(--fonteRodape);
+    font-style: italic;
+    text-align: center;
+}

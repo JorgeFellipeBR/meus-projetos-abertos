@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Login</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
+</head>
+<body>
+    <div class="contratoUso" id="contratoUso">
+        <div class="divisao">
+            <h1>Termos do Site</h1>
+            <a class="fechar" id="fechar" href="#">X</a>
+        </div>
+        <hr>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora non, ullam pariatur dolorem ab. Voluptates, quidem mollitia consequuntur similique ipsam nostrum sequi. Commodi suscipit velit eius ratione neque perspiciatis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea facere autem molestiae quia cum deleniti atque tempora necessitatibus obcaecati! Voluptatum reiciendis soluta fugiat assumenda est omnis ab iusto maiores?
+        </p>
+    </div>
+
+    <header>
+        <h1>Agências Games</h1>
+    </header>
+
+    <main>
+        <div class="imagem">
+            <img src="src/img/software-code-testing-animate.svg" alt="imagem com monitor de fundo com 2 pessoas e animação flutuante">
+        </div>
+
+        <div class="formulario">
+            <form action="cadastro.js" method="post">
+                <div class="usuario">
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" name="usuario" id="usuario" autocomplete="username" placeholder="Digite seu usuário" required>
+                </div>
+                <div class="email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="senha">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="Digite sua senha" required>
+                </div>
+                <div class="botao">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div class="outroRecurso">
+                    <div class="termos">
+                        <input type="checkbox" name="termosUso" id="termosUso" required>
+                        <a href="#" class="contrato" id="contrato">Termos do site</a>
+                    </div>
+                    <a class="esqueciSenha" href="#">Esqueci minha senha</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;JorgeFellipe</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
