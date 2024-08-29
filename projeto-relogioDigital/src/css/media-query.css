@@ -1,0 +1,28 @@
+@media screen and (max-width: 920px) {
+    .main-container {
+        width: 90%;
+    }
+
+    .main-container .relogio {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .relogio .tempo {
+        width: 100%;
+    }
+
+    .tempo .timer {
+        font-size: 50px;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .tempo .titulo {
+        font-size: 25px;
+    }
+}
