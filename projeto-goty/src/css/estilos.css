@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #800080;
+    height: calc(100vh - 47px);
+}
+
+header {
+    background-color: #8a2be2;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 30px auto;
+    background-color: lightgray;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+}
+
+main .pesquisa {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.pesquisa .pesquisar {
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    outline: 0;
+    border: 0;
+}
+
+.pesquisa .botao {
+    width: 30%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 9px 9px 0;
+    border: 0;
+    background-color: #00ca00;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.pesquisa .botao:hover {
+    background-color: #03ac03;
+}
+
+main .jogo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.jogo .nomeJogo {
+    text-align: center;
+    font-size: 22px;
+}
+
+.jogo .imagem {
+    width: 220px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+}
+
+.jogo .descricaoJogo {
+    background-color: #9c9c9c;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+    overflow-y: auto;
+}
