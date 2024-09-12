@@ -1,0 +1,49 @@
+@media screen and (max-width: 610px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .pesquisa .botao {
+        font-size: 16px;
+    }
+
+    .jogo .nomeJogo {
+        font-size: 18px;
+    }
+
+    .jogo .descricaoJogo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .pesquisa .pesquisar {
+        font-size: 18px;
+    }
+
+    .pesquisa .botao {
+        font-size: 14px;
+    }
+
+    .jogo .nomeJogo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    header h1 {
+        font-size: 16px;
+    }
+
+    .pesquisa .botao {
+        font-size: 12px;
+    }
+}
