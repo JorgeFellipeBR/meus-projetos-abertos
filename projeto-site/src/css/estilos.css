@@ -6,15 +6,275 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(235, 235, 235);
+}
+
 :root {
     /* Paletas de cores do site */
     --amarelo: #ffff00;
     --preto: #000000;
     --azul: #0000ff;
-    --rosa: #ff00ff;
+    --rosa: #f500f5;
     --branco: #ffffff;
 
     /* Fontes do site */
     --fonteTitulo: "Kanit", system-ui;
     --fonteParagrafo: "Exo 2", sans-serif;
+}
+
+.sidebar {
+    background-color: black;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+.sidebar .texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    color: var(--branco);
+    font-family: var(--fonteTitulo);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.texto .fecharSidebar {
+    color: var(--branco);
+    font-family: var(--fonteParagrafo);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.texto .fecharSidebar:hover {
+    color: rgb(207, 207, 207);
+    transform: scale(1.05);
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul .opcaoConfig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 172, 172);
+    padding: 5px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+ul .opcaoConfig:hover {
+    transform: scale(1.05);
+    background-color: rgb(146, 146, 146);
+}
+
+.opcaoConfig label {
+    font-family: var(--fonteParagrafo);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.opcaoConfig .termosServicos {
+    color: black;
+    font-weight: 600;
+    font-family: var(--fonteParagrafo);
+    text-decoration: none;
+}
+
+.navegacao {
+    display: flex;
+    padding: 10px;
+    background-color: var(--preto);
+    position: sticky;
+    top: 0;
+}
+
+.menu, .campoPesquisa, .opcoes {
+    width: 33%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu .config {
+    color: var(--branco);
+    font-size: 35px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.menu .config:hover {
+    transform: scale(1.05);
+}
+
+.campoPesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoPesquisa .campo {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.search {
+    width: 10%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.campoInput {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+::placeholder {
+    color: black;
+}
+
+.botao {
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    background-color: var(--rosa);
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    font-family: var(--fonteTitulo);
+    transition: .2s;
+}
+
+.botao:hover {
+    background-color: #e400e4;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes ul {
+    display: flex;
+    column-gap: 10px;
+    list-style-type: none;
+}
+
+ul .opcao {
+    text-align: center;
+    width: 110px;
+    background-color: var(--amarelo);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+ul .opcao:hover {
+    transform: scale(1.02);
+    background-color: rgb(221, 221, 0);
+}
+
+.opcao .links {
+    color: black;
+    font-family: var(--fonteParagrafo);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: rgb(24, 22, 22);
+    padding: 20px 80px;
+}
+
+.cabecalho h1 {
+    color: var(--branco);
+    font-family: var(--fonteTitulo);
+    font-size: 40px;
+}
+
+.conteudo-principal {
+    display: flex;
+}
+
+.conteudo {
+    width: 75%;
+    padding: 30px;
+}
+
+.conteudo-principal .conteudo h2 {
+    color: var(--preto);
+    font-family: var(--fonteTitulo);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal .conteudo p {
+    color: var(--preto);
+    font-size: 20px;
+    font-family: var(--fonteParagrafo);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.divImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.divImagem .imagem {
+    width: 550px;
+    border-radius: 10px;
+}
+
+.essenciaCyberpunk {
+    list-style-type: none;
+}
+
+.divVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.divVideo .video {
+    width: 550px;
+    border-radius: 10px;
+}
+
+ul .textoTeste {
+    color: black;
 }
