@@ -4,11 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Música</title>
-    <link rel="stylesheet" href="src/css/estilos.css">
-    <link rel="stylesheet" href="src/css/media-query.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 </head>
 <body>
-    
-    <script src="src/js/index.js"></script>
+    <div class="sidebar" id="sidebar">
+        <div class="texto">
+            <p>Configurações</p>
+            <a class="fecharSidebar" id="fecharSidebar" href="#">X</a>
+        </div>
+        <ul>
+            <li class="opcaoConfig">
+                <label for="tema">Tema Escuro</label>
+                <input class="radio" type="checkbox" name="tema" id="tema">
+            </li>
+            <li class="opcaoConfig"><a class="termosServicos" href="">Termos de Serviço</a></li>
+        </ul>
+    </div>
+
+    <nav class="navegacao">
+        <div class="menu">
+            <span class="material-symbols-outlined config" id="abrirSidebar">
+                menu
+            </span>
+        </div>
+
+        <div class="campoPesquisa">
+            <div class="campo">
+                <span class="material-symbols-outlined search">
+                    search
+                </span>
+                <input class="campoInput" type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
+                <button class="botao">Buscar</button>
+            </div>
+        </div>
+
+        <div class="opcoes">
+            <ul>
+                <li class="opcao"><a class="links" href="#">Início</a></li>
+                <li class="opcao"><a class="links" href="#">Atualizações</a></li>
+                <li class="opcao"><a class="links" href="src/pages/suporte.html">Suporte</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="cabecalho">
+        <h1>Música: Descubra mais sobre o mundo da música, seus elementos e os gêneros.</h1>
+    </header>
+
+    <main class="conteudo-principal">
+        <div class="conteudo">
+            <h2>O Mundo da Música: Uma Jornada Sonora</h2>
+            <p>O mundo da música é um universo vasto e fascinante, repleto de histórias, culturas e emoções. É uma linguagem universal que nos conecta, nos inspira e nos move de formas profundas.</p>
+
+            <h2>O que é a música?</h2>
+            <p>A música é a arte de combinar sons de forma expressiva, utilizando melodia, harmonia, ritmo e timbre. Ela pode ser criada e apreciada de diversas maneiras, desde as canções mais simples até as composições mais complexas.</p>
+
+            <div class="divImagem">
+                <img class="imagem" src="../images/musica/musica-img.jpg" alt="Mulher cantando">
+            </div>
+
+            <h2>Por que a música é importante?</h2>
+            <ul class="essencia">
+                <li>
+                    <p><strong>Expressão emocional:</strong> A música nos permite expressar sentimentos que às vezes são difíceis de colocar em palavras.</p>
+                </li>
+                <li>
+                    <p><strong>Conexão social:</strong> A música nos une, criando um senso de comunidade e identidade.</p>
+                </li>
+                <li>
+                    <p><strong>Desenvolvimento cognitivo:</strong> Aprender a tocar um instrumento ou cantar pode melhorar a memória, a coordenação e a capacidade de resolução de problemas.</p>
+                </li>
+                <li>
+                    <p><strong>Bem-estar:</strong>  A música pode reduzir o estresse, a ansiedade e a depressão, além de melhorar o humor e a qualidade do sono.</p>
+                </li>
+            </ul>
+
+            <h2>Os elementos da música:</h2>
+            <ul class="essencia">
+                <li>
+                    <p><strong>Melodia:</strong> A sequência de notas que formam uma canção.</p>
+                </li>
+                <li>
+                    <p><strong>Harmonia:</strong> A combinação de diferentes notas ao mesmo tempo.</p>
+                </li>
+                <li>
+                    <p><strong>Ritmo:</strong> A organização dos sons no tempo.</p>
+                </li>
+                <li>
+                    <p><strong>Timbre:</strong> A qualidade do som que distingue um instrumento ou voz de outro.</p>
+                </li>
+            </ul>
+
+            <h2>Os gêneros musicais:</h2>
+            <p>Existem inúmeros gêneros musicais, cada um com suas características próprias. Alguns dos gêneros mais populares incluem:</p>
+            <ul class="essencia">
+                <li>
+                    <p><strong>Pop:</strong> Música popular, com melodias cativantes e letras acessíveis.</p>
+                </li>
+                <li>
+                    <p><strong>Rock:</strong> Gênero marcado pela energia, guitarra elétrica e letras que abordam temas sociais e políticos.</p>
+                </li>
+                <li>
+                    <p><strong>Jazz:</strong> Estilo musical improvisado, com raízes em África e no sul dos Estados Unidos.</p>
+                </li>
+                <li>
+                    <p><strong>Clássica:</strong> Música erudita, composta por grandes mestres como Bach, Mozart e Beethoven.</p>
+                </li>
+                <li>
+                    <p><strong>Hip-hop:</strong> Gênero que combina música eletrônica com rimas faladas, abordando temas do cotidiano e da cultura urbana</p>
+                </li>
+            </ul>
+
+            <div class="divImagem">
+                <img class="imagem" src="../images/musica/musica-img2.jpg" alt="Homem cantando no centro de um palco">
+            </div>
+
+            <h2>A indústria musical:</h2>
+            <p>A indústria musical engloba todos os aspectos relacionados à criação, produção, distribuição e consumo de música. Ela inclui músicos, compositores, produtores, gravadoras, plataformas de streaming e muito mais.</p>
+
+            <h2>A música no mundo:</h2>
+            <p>A música está presente em todas as culturas do mundo, moldando a identidade de cada povo. Cada cultura possui seus próprios instrumentos musicais, ritmos e estilos.</p>
+
+            <div class="divVideo">
+                <video class="video" controls src="../videos/musica.mp4"></video>
+            </div>
+
+            <h2>Como explorar o mundo da música:</h2>
+            <p>Existem diversas formas de explorar o mundo da música:</p>
+            <ul class="essencia">
+                <li>
+                    <p><strong>Ouvir música:</strong> Descubra novos artistas e gêneros através de plataformas de streaming, rádios e shows.</p>
+                </li>
+                <li>
+                    <p><strong>Tocar um instrumento:</strong> Aprender a tocar um instrumento é uma ótima maneira de se conectar com a música de forma mais profunda.</p>
+                </li>
+                <li>
+                    <p><strong>Cantar:</strong> O canto é uma forma de expressão pessoal e pode ser muito prazeroso.</p>
+                </li>
+                <li>
+                    <p><strong>Ir a shows:</strong> Experimente a energia de um show ao vivo e conheça novos artistas.</p>
+                </li>
+                <li>
+                    <p><strong>Estudar música:</strong> A música pode ser estudada em escolas de música, conservatórios e universidades.</p>
+                </li>
+            </ul>
+
+            <section>
+                <ul class="seçao">
+                    <h3>Músicas para você escutar</h3>
+                    <li class="musicas">
+                        <audio controls src="../audio/Boom Bap Flick - Quincas Moreira.mp3"></audio>
+                        <audio controls src="../audio/Flying - Track Tribe.mp3"></audio>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <article class="artigos">
+            <ul class="outrosArtigos">
+                <li class="artigo">
+                    <a target="_parent" href="../pages/jogos.html">Vídeo-game: Descubra mais sobre o mundo dos vídeo-games.</a>
+                    <img class="imagemArtigo" src="../images/jogos/jogos-img.jpg" alt="imagem do mario e luigi">
+                </li>
+                <li class="artigo">
+                    <a target="_parent" href="../../index.html">Tema Cyberpunk: Descubra mais sobre a estética Cyberpunk e os detalhes das histórias desse subgênero.</a>
+                    <img class="imagemArtigo" src="../images/cyberpunk/cyberpunk-img.jpg" alt="Imagem cyberpunk">
+                </li>
+            </ul>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        <p class="tituloRodape">&copy;JorgeFellipe</p>
+    </footer>
+
+    <script src="../js/index.js"></script>
 </body>
 </html>
