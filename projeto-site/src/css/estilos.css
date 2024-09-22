@@ -12,7 +12,7 @@ body {
 
 :root {
     /* Paletas de cores do site */
-    --amarelo: #ffff00;
+    --amarelo: #fafa00;
     --preto: #000000;
     --azul: #0000ff;
     --rosa: #f500f5;
@@ -389,6 +389,44 @@ section .seçao {
 .artigo .imagemArtigo {
     width: 100px;
     border-radius: 10px;
+}
+
+.redesSociais {
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--preto);
+}
+
+.redesSociais .social {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-bottom: 15px;
+}
+
+.social a {
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--fonteParagrafo);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.social a:hover {
+    color: rgb(216, 216, 216);
+    text-decoration: underline;
+}
+
+.conteudo .novidade {
+    background-color: var(--rosa);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.novidade p {
+    font-weight: 600;
 }
 
 .rodape {
