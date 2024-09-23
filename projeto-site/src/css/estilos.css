@@ -23,6 +23,61 @@ body {
     --fonteParagrafo: "Exo 2", sans-serif;
 }
 
+.aparecer {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.470);
+    z-index: 3;
+}
+
+.termos {
+    display: none;
+}
+
+.aparecer .cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cima h1 {
+    font-family: var(--fonteTitulo);
+}
+
+.cima a {
+    color: var(--preto);
+    font-family: var(--fonteTitulo);
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.cima a:hover {
+    color: rgb(37, 35, 35);
+    transform: scale(1.05);
+}
+
+.aparecer p {
+    font-family: var(--fonteParagrafo);
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.aparecer .autorizar label {
+    font-family: var(--fonteTitulo);
+    font-weight: 600;
+}
+
 .sidebar {
     background-color: black;
     width: 0;
@@ -422,6 +477,7 @@ section .seçao {
 .conteudo .novidade {
     background-color: var(--rosa);
     padding: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
