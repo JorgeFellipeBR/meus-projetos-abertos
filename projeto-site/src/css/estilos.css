@@ -485,6 +485,51 @@ section .seçao {
     font-weight: 600;
 }
 
+.noticia {
+    display: flex;
+    width: 70%;
+    column-gap: 15px;
+    background-color: var(--rosa);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.noticia a {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--preto);
+    text-align: justify;
+    text-decoration: none;
+    font-family: var(--fonteParagrafo);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+.noticia a {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--preto);
+    text-align: justify;
+    text-decoration: none;
+    font-family: var(--fonteParagrafo);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+    transition: .2s;
+}
+
+.noticia a:hover {
+    color: rgb(56, 54, 54);
+    text-decoration: underline;
+}
+
+.noticia img {
+    width: 200px;
+    border-radius: 10px;
+}
+
 .rodape {
     background-color: var(--preto);
     padding: 15px;
