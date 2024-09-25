@@ -8,7 +8,7 @@ let remover = document.getElementById("remover");
 let sidebar = document.getElementById("sidebar");
 
 abrirSidebar.addEventListener("click", function() {
-    sidebar.style.width = "300px";
+    sidebar.style.width = "280px";
 });
 
 fecharSidebar.addEventListener("click", function() {

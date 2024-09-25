@@ -350,6 +350,7 @@ section .seçao {
 }
 
 .seçao h3 {
+    text-align: center;
     color: var(--branco);
     font-family: var(--fonteTitulo);
     font-size: 25px;
@@ -487,24 +488,13 @@ section .seçao {
 
 .noticia {
     display: flex;
+    justify-content: space-around;
     width: 70%;
     column-gap: 15px;
     background-color: var(--rosa);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
-}
-
-.noticia a {
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--preto);
-    text-align: justify;
-    text-decoration: none;
-    font-family: var(--fonteParagrafo);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 400px;
 }
 
 .noticia a {

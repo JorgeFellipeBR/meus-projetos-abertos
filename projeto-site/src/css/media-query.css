@@ -1,0 +1,184 @@
+@media screen and (max-width: 1080px) {
+    .cabecalho h1 {
+        font-size: 30px;
+    }
+
+    ul .opcao {
+        text-align: center;
+        font-size: 90%;
+        width: 100px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .navegacao {
+        flex-wrap: wrap-reverse;
+        row-gap: 15px;
+    }
+
+    .menu, .campoPesquisa {
+        width: 50%;
+    }
+
+    .opcoes {
+        width: 100%;
+    } 
+
+    .noticia {
+        width: 100%;
+    }
+
+    .seçao .musicas {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .audio {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .artigo a {
+        font-size: 12px;
+    }
+
+    .artigo .imagemArtigo {
+        width: 80px;
+    }
+
+    .noticia a {
+        font-size: 20px;
+        height: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo-principal .artigos {
+        width: 100%;
+    }
+
+    .artigos {
+        border-radius: 0;
+    }
+
+    .artigo a {
+        width: 200px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .aparecer {
+        width: 90%;
+    }
+
+    .cima h1 {
+        font-size: 25px;
+    }
+
+    ul .opcao {
+        text-align: center;
+        font-size: 70%;
+        font-weight: bold;
+        width: 90px;
+        padding: 10px;
+    }
+
+    .cabecalho {
+        background-color: rgb(24, 22, 22);
+        padding: 20px 40px;
+    }
+
+    .campoInput {
+        font-size: 14px;
+    }
+
+    .botao {
+        font-size: 16px;
+    }
+
+    .divImagem .imagem {
+        width: 90%;
+    }
+
+    .divVideo .video {
+        width: 90%;
+    }
+
+    .exemplos .exemplosImg {
+        width: 25%;
+    }
+
+    .seçao h3 {
+        font-size: 100%;
+    }
+
+    .seçao .botaoMostrar {
+        font-size: 15px;
+    }
+
+    .artigo a {
+        font-size: 14px;
+    }
+
+    .rodape .tituloRodape {
+        font-size: 18px;
+    }
+
+    .noticia a {
+        font-size: 18px;
+        width: 60%;
+        height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .noticia img {
+        width: 40%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .aparecer p {
+        font-size: 16px;
+    }
+
+    ul .opcao {
+        text-align: center;
+        font-size: 65%;
+        font-weight: bold;
+        width: 80px;
+        padding: 10px;
+    }
+
+    .cabecalho h1 {
+        font-size: 25px;
+    }
+
+    .botao {
+        font-size: 12px;
+    }
+
+    .conteudo-principal .conteudo h2 {
+        font-size: 25px;
+    }
+
+    .artigo a {
+        width: 160px;
+        font-size: 12px;
+    }
+}
