@@ -4,6 +4,14 @@
     /* Fontes do Site */
     --fonteTitulo: "Lilita One", sans-serif;
     --fonteParagrafo: "Asap", sans-serif;
+    --fonteMarca: "Playwrite GB S", cursive;
+
+    /* Paleta de cores do site */
+    --branco: #ffffff;
+    --preto: #000000;
+    --rosa: #ff00af;
+    --verde: #00ff72;
+    --azul: #054149;
 }
 
 * {
@@ -13,3 +21,175 @@
     font-family: var(--fonteParagrafo);
 }
 
+body {
+    background-color: var(--preto);
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--verde);
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.topo .navegacao ul {
+    display: flex;
+    column-gap: 5px;
+    list-style-type: none;
+}
+
+.navegacao ul li {
+    background-color: var(--azul);
+    width: 90px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .2s
+}
+
+.navegacao ul li:hover {
+    background-color: #055863;
+    transform: scale(1.02);
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.topo .campoDeBusca {
+    display: flex;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.campoDeBusca input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    outline: 0;
+}
+
+.campoDeBusca button {
+    background-color: #00a800;
+    width: 30%;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    transition: .2s;
+}
+
+.campoDeBusca button:hover {
+    background-color: #008600;
+}
+
+button span {
+    color: var(--branco);
+}
+
+.cabecalho {
+    background-image: url('../images/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: inset 0 0 80px 80px rgba(0, 0, 0, 0.470);
+    margin-bottom: 10px;
+}
+
+.cabecalho h1 {
+    color: var(--branco);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--fonteMarca);
+    text-shadow: 0 0 10px black;
+}
+
+.conteudo-principal {
+    display: flex;
+}
+
+.conteudo-principal .opcoesSorvetes {
+    width: 75%;
+    padding: 10px;
+}
+
+.conteudo-principal .areaPedidos {
+    width: 25%;
+    background-color: lightgray;
+    height: 400px;
+}
+
+.conteudo-principal .opcoesSorvetes h2 {
+    color: var(--branco);
+    font-size: 25px;
+    font-family: var(--fonteMarca);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.opcoesSorvetes .opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opcoes .opcao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--rosa);
+    border-radius: 10px;
+}
+
+.opcao h3 {
+    color: var(--branco);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.opcao .imagemSorvete {
+    height: 190px;
+}
+
+.opcao .botao {
+    background-color: var(--azul);
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.opcao .botao:hover {
+    background-color: #002024;
+}
+
+.rodape {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--verde);
+    border-radius: 10px 10px 0 0;
+}
+
+.rodape p {
+    font-size: 25px;
+    color: var(--preto);
+    font-family: var(--fonteTitulo);
+}
