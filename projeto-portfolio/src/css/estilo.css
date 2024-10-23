@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+}
+
+.topo .menuElogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.menuElogo .menu span {
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menuElogo .menu span:hover {
+    transform: scale(1.08);
+    color: gray;
+}
+
+.menuElogo .logo img {
+    width: 160px;
+}
+
+.navegacao ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    list-style-type: none;
+}
+
+ul li {
+    transition: .2s;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .2s;
+}
+
+ul li a:hover {
+    color: gray;
+}
+
+li .contato {
+    border: 2px solid #ffffff;
+    padding: 8px 50px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+li .contato:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #5a005a, #490049);
+}
+
+.cabecalho .texto {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 15px;
+}
+
+.cabecalho .texto h1 {
+    color: #ffffff;
+    font-size: 40px;
+    width: 350px;
+}
+
+.cabecalho .texto p {
+    color: #ffffff;
+}
+
+.cabecalho .texto button {
+    width: 180px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cabecalho .texto button:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.cabecalho .divImagem img {
+    width: 400px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.conteudo-principal .titulo h2 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+    color: rgb(161, 0, 161);
+}
+
+.conteudo-principal .minhasHabilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.minhasHabilidades .habilidade {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 300px;
+    padding: 30px;
+    border: 2px solid #5a005a;
+    border-radius: 0 30px 30px 30px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 0 #490049;
+}
+
+.habilidade .habilidadeImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidadeImagem img {
+    width: 200px;
+}
+
+.habilidade h3 {
+    text-align: center;
+    color: rgb(161, 0, 161);
+}
+
+.habilidade p {
+    text-align: justify;
+    color: rgb(161, 0, 161);
+}
+
+.conteudo-principal .meusProjetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 30px;
+    background-image: linear-gradient(to right, #5e005e, #330033);
+}
+
+.meusProjetos .areaTexto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.areaTexto h2 {
+    width: 400px;
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 80px;
+} 
+
+.areaTexto p {
+    color: #ffffff;
+    width: 350px;
+    font-size: 20px;
+}
+
+.areaTexto button {
+    width: 250px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.areaTexto button:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.meusProjetos .projetos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.projetos .projeto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.projetos .projeto img {
+    width: 250px;
+    border-radius: 0 30px 30px 30px;
+}
+
+.projetos .projeto h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.conteudo-principal .sobreMim {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.sobreMim .mimImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.sobreMim .mimImagem img {
+    width: 300px;
+    border-radius: 0 60px 10px 60px;
+    box-shadow: 15px 15px 0 #490049;
+}
+
+.sobreMim .descricaoMim {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 10px;
+}
+
+.sobreMim .descricaoMim h2 {
+    color: #5a005a;
+    width: 200px;
+    font-size: 60px;
+    line-height: 55px;
+}
+
+.descricaoMim p {
+    width: 400px;
+    color: #5a005a;
+}
+
+.descricaoMim .redesSociais {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+.redesSociais li {
+    background-color: #5a005a;
+    padding: 8px;
+    border-radius: 0 10px 10px 10px;
+    transition: .2s;
+}
+
+.redesSociais li:hover {
+    background-color: #330033;
+    transform: scale(1.05);
+}
+
+.redesSociais li a img {
+    width: 40px;
+}
