@@ -311,3 +311,157 @@ li .contato:hover {
 .redesSociais li a img {
     width: 40px;
 }
+
+.conteudo-principal .entreContato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-image: linear-gradient(to right, #5a005a, #490049);
+}
+
+.entreContato .faleComigo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.entreContato .faleComigo h2 {
+    color: #ffffff;
+    font-size: 45px;
+    width: 200px;
+    line-height: 45px;
+}
+
+.entreContato .faleComigo p {
+    color: #ffffff;
+}
+
+.entreContato .faleComigo .contatos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    list-style-type: none;
+}
+
+.contatos li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contatos li:hover {
+    transform: scale(1);
+}
+
+.contatos li img {
+    width: 40px;
+}
+
+.entreContato .inputs form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.inputs form .campoInput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+form .campoInput label {
+    color: #ffffff;
+}
+
+form .campoInput input {
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    outline: 0;
+    background-color: transparent;
+    transition: .2s;
+}
+
+form .campoInput input:focus {
+    background-color: #ffffff17;
+    transform: scale(1.02);
+}
+
+form .campoInput textarea {
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    outline: 0;
+    background-color: transparent;
+    transition: .2s;
+}
+
+form .campoInput textarea:focus {
+    background-color: #ffffff17;
+    transform: scale(1.02);
+}
+
+form .enviar {
+    display: flex;
+    justify-content: center;
+}
+
+form .enviar input[type="submit"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .enviar input[type="submit"]:hover {
+    transform: scale(1.05);
+    background-color: #ffffff17;
+}
+
+.rodape {
+    padding: 20px 50px;
+    background-color: black;
+}
+
+.rodape .rodapeTopo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.rodape img {
+    width: 120px;
+}
+
+.rodapeTopo ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    column-gap: 20px;
+}
+
+.rodape .redes {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.redes li img {
+    width: 50px;
+}

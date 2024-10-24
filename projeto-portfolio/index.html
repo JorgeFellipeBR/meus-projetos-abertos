@@ -126,12 +126,68 @@
         </div>
 
         <div class="entreContato">
-            
+            <div class="faleComigo">
+                <h2>
+                    Fale
+                    Comigo!
+                </h2>
+                <p>Se previr pode usar outro meio de contato:</p>
+                <ul class="contatos">
+                    <li>
+                        <img src="src/images/mail.png" alt="Logo do mail em png">
+                        <p>falecom@nexus.com.br</p>
+                    </li>
+                    <li>
+                        <img src="src/images/whatsapp.png" alt="Logo do whatsapp em png">
+                        <p>(00) 90000-0000</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="inputs">
+                <form action="cadastro.php" method="post">
+                    <div class="campoInput">
+                        <label for="nome">Seu nome completo:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campoInput">
+                        <label for="mail">Seu e-mail:</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </div>
+                    <div class="campoInput">
+                        <label for="telefone">Seu telefone/Whatsapp:</label>
+                        <input type="tel" name="telefone" id="telefone">
+                    </div>
+                    <div class="campoInput">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
     <!---->
     <footer class="rodape">
-
+        <div class="rodapeTopo">
+            <img src="src/images/logo.png" alt="">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Sobre mim</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="redes">
+            <ul class="redes">
+                <li><img src="src/images/instagram.png" alt="Logo do instagram"></li>
+                <li><img src="src/images/github.png" alt="Logo do GitHub"></li>
+                <li><img src="src/images/linkedin.png" alt="Logo do Linkedin"></li>
+            </ul>
+        </div>
     </footer>
     <script src="src/js/index.js"></script>
 </body>
