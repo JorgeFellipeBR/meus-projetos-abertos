@@ -9,6 +9,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 </head>
 <body>
+    <div class="sidebar" id="sidebar">
+        <div class="config">
+            <p>Configuração</p>
+            <button class="fecharSidebar" id="fecharSidebar">X</button>
+        </div>
+
+        <div class="checkboxTema">
+            <div class="divTema">
+                <input type="checkbox" name="tema" id="tema">
+                <label for="tema">Mudar tema</label>
+            </div>
+        </div>
+    </div>
+    <!---->
     <div class="topo">
         <div class="menuElogo">
             <div class="menu">
@@ -22,10 +36,10 @@
         <nav class="navegacao">
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a class="contato" href="#">Contato</a></li>
+                <li><a href="#minhasHabilidades">Habilidades</a></li>
+                <li><a href="#meusProjetos">Projetos</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a class="contato" href="#entreContato">Contato</a></li>
             </ul>
         </nav>
     </div>
@@ -52,7 +66,7 @@
             <h2>Minhas habilidades</h2>
         </div>
 
-        <div class="minhasHabilidades">
+        <div class="minhasHabilidades" id="minhasHabilidades">
             <div class="habilidade">
                 <div class="habilidadeImagem">
                     <img src="src/images/website.png" alt="Uma pessoa usando um computador">
@@ -76,7 +90,7 @@
             </div>
         </div>
 
-        <div class="meusProjetos">
+        <div class="meusProjetos" id="meusProjetos">
             <div class="areaTexto">
                 <h2>Meus Projetos</h2>
                 <p>Veja alguns dos meus projetos mais recentes</p>
@@ -106,7 +120,7 @@
             </div>
         </div>
 
-        <div class="sobreMim">
+        <div class="sobreMim" id="sobreMim">
             <div class="mimImagem">
                 <img src="src/images/foto-eu.png" alt="Imagem de uma mulher ruiva">
             </div>
@@ -125,7 +139,7 @@
             </div>
         </div>
 
-        <div class="entreContato">
+        <div class="entreContato" id="entreContato">
             <div class="faleComigo">
                 <h2>
                     Fale
@@ -175,9 +189,9 @@
             <img src="src/images/logo.png" alt="">
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#minhasHabilidades">Habilidades</a></li>
+                <li><a href="#meusProjetos">Projetos</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
             </ul>
         </div>
         <hr>

@@ -7,6 +7,70 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    position: fixed;
+    height: 100%;
+    z-index: 2;
+    overflow-x: hidden;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(34, 32, 32);
+    transition: .2s;
+}
+
+.sidebar .config {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    transition: .2s;
+}
+
+.config p {
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.config button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.config button:hover {
+    color: #808080;
+    transform: scale(1.05);
+}
+
+.sidebar .checkboxTema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxTema .divTema {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 200px;
+    transition: 2.s;
+}
+
+.divTema label {
+    font-weight: bold;
+}
+
 .topo {
     display: flex;
     flex-direction: row;
@@ -86,7 +150,7 @@ li .contato:hover {
     justify-content: center;
     align-items: center;
     column-gap: 60px;
-    padding: 20px 0;
+    padding: 20px;
     background-image: linear-gradient(to right, #5a005a, #490049);
 }
 
@@ -148,6 +212,7 @@ li .contato:hover {
     align-items: center;
     column-gap: 30px;
     margin-bottom: 50px;
+    padding: 20px;
 }
 
 .minhasHabilidades .habilidade {
@@ -443,7 +508,7 @@ form .enviar input[type="submit"]:hover {
     padding-bottom: 10px;
 }
 
-.rodape img {
+.rodapeTopo img {
     width: 120px;
 }
 

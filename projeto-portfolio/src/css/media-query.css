@@ -1,0 +1,292 @@
+@media screen and (max-width: 870px) {
+    .topo {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .topo .menuElogo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .cabecalho .divImagem {
+        display: none;
+    }
+
+    .minhasHabilidades .habilidade {
+        width: 30%;
+        padding: 20px;
+    }
+
+    .areaTexto h2 {
+        font-size: 60px;
+        line-height: 55px;
+    } 
+
+    .areaTexto button {
+        width: 200px;
+    }
+
+    .projetos .projeto img {
+        width: 200px;
+    }
+
+    .sobreMim .mimImagem img {
+        width: 220px;
+    }
+
+    .sobreMim .descricaoMim {
+        row-gap: 15px;
+    }
+
+    .sobreMim .descricaoMim h2 {
+        color: #5a005a;
+        width: 200px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .redesSociais li a img {
+        width: 35px;
+    }
+
+    form .campoInput input {
+        width: 250px;
+    }
+
+    form .campoInput textarea {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    ul li a {
+        font-size: 0.8rem;
+    }
+
+    li .contato {
+        padding: 8px 20px;
+    }
+
+    .conteudo-principal .minhasHabilidades {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .minhasHabilidades .habilidade {
+        width: 80%;
+    }
+
+    .conteudo-principal .meusProjetos {
+        flex-direction: column;
+        row-gap: 40px;
+        padding: 60px 20px;
+    }
+
+    .areaTexto h2 {
+        width: auto;
+        font-size: 60px;
+    } 
+
+    .areaTexto p {
+        width: auto;
+        text-align: center;
+    }
+
+    .areaTexto button {
+        margin: auto;
+    }
+
+    .meusProjetos .projetos {
+        flex-direction: row;
+        column-gap: 20px;
+        padding: 10px;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .conteudo-principal .sobreMim {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .sobreMim .descricaoMim h2 {
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+    }
+
+    .descricaoMim p {
+        width: auto;
+    }
+
+    .descricaoMim .redesSociais {
+        justify-content: center;
+    }
+
+    .conteudo-principal .entreContato {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .entreContato .faleComigo {
+        row-gap: 10px;
+        width: 100%;
+    }
+
+    .entreContato .faleComigo h2 {
+        font-size: 40px;
+        width: auto;
+    }
+
+    .entreContato .faleComigo .contatos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        column-gap: 20px;
+    }
+
+    .entreContato .inputs {
+        width: 100%;
+    }
+
+    form .campoInput input {
+        width: 100%;
+    }
+
+    form .campoInput textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .menuElogo .logo img {
+        width: 120px;
+    }
+
+    ul li a {
+        font-size: 0.7rem;
+    }
+
+    li .contato {
+        padding: 8px 10px;
+    }
+
+    .contatos li img {
+        width: 30px;
+    }
+
+    .contatos li p {
+        font-size: 13px;
+    }
+
+    .areaTexto h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .rodape .rodapeTopo {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 10px;
+        padding-bottom: 10px;
+    }
+
+    .redes li img {
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .navegacao {
+        display: none;
+    }
+
+    .cabecalho .texto {
+        width: 100%;
+    }
+
+    .cabecalho .texto h1 {
+        color: #ffffff;
+        font-size: 30px;
+        width: auto;
+    }
+
+    .conteudo-principal .titulo h2 {
+        font-size: 22px;
+    }
+
+    .meusProjetos .areaTexto {
+        row-gap: 6px;
+    }
+
+    .projetos .projeto img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cabecalho .texto h1 {
+        font-size: 28px;
+    }
+
+    .cabecalho .texto button {
+        width: 160px;
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+    .minhasHabilidades .habilidade {
+        width: 100%;
+    }
+
+    .meusProjetos .areaTexto {
+        row-gap: 10px;
+    }
+
+    .areaTexto h2 {
+        font-size: 30px;
+    } 
+
+    .areaTexto p {
+        font-size: 16px;
+    } 
+
+    .areaTexto button {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .sobreMim .descricaoMim h2 {
+        font-size: 35px;
+    }
+
+    .redesSociais li a img {
+        width: 30px;
+    }
+
+    .entreContato .faleComigo h2 {
+        font-size: 30px;
+    }
+
+    .entreContato .faleComigo p {
+        font-size: 15px;
+    }
+
+    .rodapeTopo ul {
+        flex-wrap: wrap;
+    }
+
+    .rodapeTopo ul li a {
+        font-size: 10px;
+    }
+}
