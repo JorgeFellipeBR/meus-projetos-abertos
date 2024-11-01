@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* Paleta de cores do site */
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinzaEscuro: #443e3e;
+    --cinzaClaro: #808080;
+    --laranja: #ff9300;
+
+    /* Fontes do site */
+    --fonteTitulo: "Archivo Black", sans-serif;
+    --fontePrincipal: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontePrincipal);
+}
