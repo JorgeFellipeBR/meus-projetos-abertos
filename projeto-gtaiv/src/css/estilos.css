@@ -6,7 +6,9 @@
     --branco: #ffffff;
     --cinzaEscuro: #443e3e;
     --cinzaClaro: #808080;
-    --laranja: #ff9300;
+    --laranja: #ff7300;
+    --roxo: #9b009b;
+    --vermelho: #ff0000;
 
     /* Fontes do site */
     --fonteTitulo: "Archivo Black", sans-serif;
@@ -19,3 +21,232 @@
     box-sizing: border-box;
     font-family: var(--fontePrincipal);
 }
+
+/* Começo Topo */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--preto);
+}
+
+.topo .menuElogo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.menuElogo .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuElogo .menu .material-symbols-outlined {
+    color: var(--branco);
+    font-size: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menuElogo .menu .material-symbols-outlined:hover {
+    color: var(--cinzaClaro);
+    transform: scale(1.10);
+}
+
+.menuElogo .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.topo .navegacao .navLinks {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    list-style-type: none;
+}
+
+.navegacao .navLinks li a {
+    text-decoration: none;
+    color: var(--branco);
+    transition: .2s;
+}
+
+.navegacao .navLinks li .contato {
+    border: 1px solid var(--branco);
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.navegacao .navLinks li a:hover {
+    color: var(--cinzaClaro);
+}
+
+.navegacao .navLinks li .contato:hover {
+    color: var(--branco);
+    background-color: #86868631;
+}
+/*Fim do Topo*/
+
+/* ----------------------------------- */
+
+/*Começo Cabeçalho*/
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-image: linear-gradient(100deg, rgb(255, 123, 0), rgb(255, 51, 0));
+}
+
+.cabecalho .texto,.imagemCabecalho {
+    width: 45%;
+}
+
+.cabecalho .texto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.texto h1 {
+    font-family: var(--fonteTitulo);
+}
+
+.texto p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.texto button {
+    background-color: transparent;
+    border: 1px solid var(--preto);
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.texto button:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+    transform: scale(1.05);
+}
+
+.texto button a {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cabecalho .imagemCabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho .imagemCabecalho img {
+    width: 400px;
+}
+/*Fim do Cabeçalho*/
+
+/* ----------------------------------- */
+
+/*Começo Conteúdo Principal*/
+.conteudo-principal .principaisAspectos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 80px 0;
+}
+
+.conteudo-principal .principaisAspectos h2 {
+    text-align: center;
+    font-family: var(--fonteTitulo);
+    font-size: 30px;
+}
+
+.principaisAspectos .aspectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.principaisAspectos .aspectos .aspecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: var(--branco);
+    border: 2px solid var(--laranja);
+    border-radius: 0 60px 30px 60px;
+    box-shadow: 15px 15px var(--laranja);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    transition: .2s;
+}
+
+.principaisAspectos .aspectos .aspecto:hover {
+    background-color: rgba(255, 166, 0, 0.356);
+    transform: scale(1.05);
+}
+
+.aspecto p {
+    text-align: justify;
+}
+
+.conteudo-principal .principaisAspectos .aspectos .aspecto img {
+    width: 100px;
+}
+
+.conteudo-principal .conteudo-historia {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--laranja);
+    padding: 60px 40px;
+}
+
+.conteudo-principal .conteudo-historia h2 {
+    font-family: var(--fonteTitulo);
+    font-size: 28px;
+}
+
+.conteudo-principal .conteudo-historia h3 {
+    font-family: var(--fonteTitulo);
+    font-size: 26px;
+}
+
+.conteudo-principal .conteudo-historia p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.conteudo-historia .imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-historia .imagem img {
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.473);
+}
+
+/*Fim do Conteúdo Principal*/
+
+/* ----------------------------------- */
