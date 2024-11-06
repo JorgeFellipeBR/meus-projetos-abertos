@@ -163,6 +163,11 @@
 /* ----------------------------------- */
 
 /*Começo Conteúdo Principal*/
+
+h2,h3 {
+    font-family: var(--fonteTitulo);
+}
+
 .conteudo-principal .principaisAspectos {
     display: flex;
     flex-direction: column;
@@ -172,7 +177,6 @@
 
 .conteudo-principal .principaisAspectos h2 {
     text-align: center;
-    font-family: var(--fonteTitulo);
     font-size: 30px;
 }
 
@@ -215,36 +219,128 @@
 .conteudo-principal .conteudo-historia {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 15px;
     background-color: var(--laranja);
     padding: 60px 40px;
 }
 
 .conteudo-principal .conteudo-historia h2 {
-    font-family: var(--fonteTitulo);
     font-size: 28px;
 }
 
 .conteudo-principal .conteudo-historia h3 {
-    font-family: var(--fonteTitulo);
     font-size: 26px;
 }
 
 .conteudo-principal .conteudo-historia p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 20px;
 }
 
-.conteudo-historia .imagem {
+.imagem {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.conteudo-historia .imagem img {
+.imagem img {
     width: 600px;
     border-radius: 10px;
+    margin: 20px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.473);
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style-type: none;
+}
+
+.topicos b {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.topicos li {
+    font-size: 20px;
+}
+
+.conteudo-principal .conteudo-gameplay {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 60px 40px;
+}
+
+.conteudo-principal .conteudo-gameplay h2 {
+    font-size: 28px;
+}
+
+.conteudo-principal .conteudo-gameplay h3 {
+    font-size: 26px;
+}
+
+.conteudo-principal .conteudo-gameplay p {
+    font-size: 20px;
+}
+
+.conteudo-principal .conteudo-atmosfera {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background-color: var(--laranja);
+    padding: 60px 40px;
+}
+
+.conteudo-principal .conteudo-atmosfera h2 {
+    font-size: 28px;
+}
+
+.conteudo-principal .conteudo-atmosfera h3 {
+    font-size: 26px;
+}
+
+.conteudo-principal .conteudo-atmosfera p {
+    font-size: 20px;
+}
+
+.conteudo-principal .conteudo-mundoAberto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 60px 40px;
+}
+
+.conteudo-principal .conteudo-mundoAberto h2 {
+    font-size: 28px;
+}
+
+.conteudo-principal .conteudo-mundoAberto h3 {
+    font-size: 26px;
+}
+
+.conteudo-principal .conteudo-mundoAberto p {
+    font-size: 20px;
+}
+
+.conteudo-principal .conteudo-gtaCompleteEdition {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--laranja);
+    row-gap: 15px;
+    padding: 60px 40px;
+}
+
+.conteudo-principal .conteudo-gtaCompleteEdition h2 {
+    font-size: 28px;
+}
+
+.conteudo-principal .conteudo-gtaCompleteEdition h3 {
+    font-size: 26px;
+}
+
+.conteudo-principal .conteudo-gtaCompleteEdition p {
+    font-size: 20px;
 }
 
 /*Fim do Conteúdo Principal*/
