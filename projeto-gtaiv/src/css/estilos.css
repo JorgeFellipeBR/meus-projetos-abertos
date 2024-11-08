@@ -362,21 +362,21 @@ h2,h3 {
     column-gap: 20px;
 }
 
-.gtas .tbogt {
+.gtas .gta1 {
     background-color: var(--roxo);
     padding: 5px 30px;
     border-radius: 30px;
     transition: .2s;
 }
 
-.gtas .tlad {
+.gtas .gta2 {
     background-color: var(--cinzaClaro);
     padding: 5px 30px;
     border-radius: 30px;
     transition: .2s;
 }
 
-.tbogt:hover,.tlad:hover {
+.gta1:hover,.gta2:hover {
     transform: scale(1.05);
 }
 /*Fim do Conteúdo Principal*/

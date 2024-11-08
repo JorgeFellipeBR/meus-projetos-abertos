@@ -106,7 +106,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px 0;
-    background-image: linear-gradient(100deg, rgb(240, 0, 240), rgb(106, 0, 133));
+    background-image: linear-gradient(100deg, #ff1f1f, #bd0000);
 }
 
 .cabecalho .texto,.imagemCabecalho {
@@ -193,9 +193,9 @@ h2,h3 {
     align-items: center;
     row-gap: 20px;
     background-color: var(--branco);
-    border: 2px solid var(--roxo);
+    border: 2px solid var(--vermelho);
     border-radius: 0 60px 30px 60px;
-    box-shadow: 15px 15px var(--roxo);
+    box-shadow: 15px 15px var(--vermelho);
     padding: 20px;
     width: 300px;
     height: 400px;
@@ -207,12 +207,12 @@ h2,h3 {
 }
 
 .aspecto h3 {
-    color: var(--roxo);
+    color: var(--vermelho);
 }
 
 .aspecto p {
     text-align: justify;
-    color: var(--roxo);
+    color: var(--vermelho);
 }
 
 .conteudo-principal .principaisAspectos .aspectos .aspecto img {
@@ -223,7 +223,7 @@ h2,h3 {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    background-color: var(--roxo);
+    background-color: var(--vermelho);
     padding: 60px 40px;
 }
 
@@ -291,7 +291,7 @@ h2,h3 {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    background-color: var(--roxo);
+    background-color: var(--vermelho);
     padding: 60px 40px;
 }
 
@@ -329,7 +329,7 @@ h2,h3 {
 .conteudo-principal .conteudo-gtaCompleteEdition {
     display: flex;
     flex-direction: column;
-    background-color: var(--roxo);
+    background-color: var(--vermelho);
     row-gap: 15px;
     padding: 60px 40px;
 }
@@ -352,7 +352,7 @@ h2,h3 {
     justify-content: center;
     align-items: center;
     row-gap: 20px;
-    background-color: #5f005c;
+    background-color: #ff1f1f;
     padding: 20px 0;
     border-radius: 20px;
 }
@@ -363,14 +363,14 @@ h2,h3 {
 }
 
 .gtas .gta1 {
-    background-color: var(--laranja);
+    background-color: var(--roxo);
     padding: 5px 30px;
     border-radius: 30px;
     transition: .2s;
 }
 
 .gtas .gta2 {
-    background-color: var(--cinzaClaro);
+    background-color: var(--laranja);
     padding: 5px 30px;
     border-radius: 30px;
     transition: .2s;
@@ -395,7 +395,7 @@ h2,h3 {
 
 .entreContato .imagemContato img {
     border-radius: 0 80px 40px 80px;
-    box-shadow: 15px 15px var(--roxo);
+    box-shadow: 15px 15px var(--vermelho);
 }
 
 .entreContato .sobreContato {
@@ -423,7 +423,7 @@ h2,h3 {
 }
 
 .redesSociais li {
-    background-color: var(--roxo);
+    background-color: var(--vermelho);
     border-radius: 0 10px 10px 10px;
     padding: 5px;
     width: 50px;
@@ -431,7 +431,7 @@ h2,h3 {
 }
 
 .redesSociais li:hover {
-    background-color: #6e006e;
+    background-color: #ff1515;
     transform: scale(1.05);
 }
 
