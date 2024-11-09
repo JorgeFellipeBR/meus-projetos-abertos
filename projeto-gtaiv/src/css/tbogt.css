@@ -208,6 +208,7 @@ h2,h3 {
 
 .aspecto h3 {
     color: var(--roxo);
+    text-align: center;
 }
 
 .aspecto p {
@@ -353,8 +354,12 @@ h2,h3 {
     align-items: center;
     row-gap: 20px;
     background-color: #5f005c;
-    padding: 20px 0;
+    padding: 20px;
     border-radius: 20px;
+}
+
+.conteudo-gtaCompleteEdition .audio h3 {
+    text-align: center;
 }
 
 .conteudo-gtaCompleteEdition .gtas {
