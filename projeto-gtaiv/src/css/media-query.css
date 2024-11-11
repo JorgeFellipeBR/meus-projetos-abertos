@@ -125,4 +125,54 @@
     .navegacao {
         display: none;
     }
+
+    .conteudo-principal .conteudo-historia {
+        padding: 60px 20px;
+    }
+
+    .conteudo-principal .conteudo-gameplay {
+        padding: 60px 20px;
+    }
+
+    .conteudo-principal .conteudo-atmosfera {
+        padding: 60px 20px;
+    }
+
+    .conteudo-principal .conteudo-mundoAberto {
+        padding: 60px 20px;
+    }
+
+    .conteudo-principal .conteudo-gtaCompleteEdition {
+        padding: 60px 20px;
+    }
+
+    .conteudo-gtaCompleteEdition .audio audio {
+        width: 100%;
+    }
+
+    .gtas .gta1 {
+        padding: 5px 20px;
+    }
+
+    .gta1 img,.gta2 img {
+        width: 100%;
+    }
+    
+    .gtas .gta2 {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .entreContato .imagemContato img {
+        width: 80%;
+    }
+
+    .sobreContato h2 {
+        font-size: 30px;
+    }
+
+    .rodape p {
+        font-size: 20px;
+    }
 }

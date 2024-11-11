@@ -398,6 +398,12 @@ h2,h3 {
     padding: 60px 40px;
 }
 
+.entreContato .imagemContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .entreContato .imagemContato img {
     border-radius: 0 80px 40px 80px;
     box-shadow: 15px 15px var(--vermelho);

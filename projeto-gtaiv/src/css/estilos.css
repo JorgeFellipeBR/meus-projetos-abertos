@@ -368,6 +368,9 @@ h2,h3 {
 }
 
 .gtas .gta1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--roxo);
     padding: 5px 30px;
     border-radius: 30px;
@@ -375,6 +378,9 @@ h2,h3 {
 }
 
 .gtas .gta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cinzaClaro);
     padding: 5px 30px;
     border-radius: 30px;
@@ -396,6 +402,12 @@ h2,h3 {
     align-items: center;
     column-gap: 50px;
     padding: 60px 40px;
+}
+
+.entreContato .imagemContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .entreContato .imagemContato img {
