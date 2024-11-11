@@ -9,10 +9,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
 </head>
 <body>
+    <div class="sidebar" id="sidebar">
+        <div class="config">
+            <p>Configurações</p>
+            <button class="botao" id="fecharSidebar">X</button>
+        </div>
+
+        <div class="input">
+            <button class="campo">
+                <input type="checkbox" name="cor" id="cor">
+                <label for="cor">Mudar Tema</label>
+            </button>
+        </div>
+    </div>
+    <!---->
     <div class="topo">
         <div class="menuElogo">
             <div class="menu">
-                <span class="material-symbols-outlined">menu</span>
+                <span class="material-symbols-outlined" id="abrirSidebar">menu</span>
             </div>
             <div class="logo">
                 <img src="src/images/logo.png" alt="Imagem escrito logotipo">
@@ -44,7 +58,7 @@
     <!---->
     <main class="conteudo-principal">
         <div class="principaisAspectos">
-            <h2>Principais Aspectos do Jogo</h2>
+            <h2 id="color">Principais Aspectos do Jogo</h2>
             <div class="aspectos">
                 <div class="aspecto">
                     <img src="src/images/historia.png" alt="">
@@ -99,33 +113,33 @@
         </div>
 
         <div class="conteudo-gameplay" id="conteudo-gameplay">
-            <h2>A Jogabilidade Detalhada de Grand Theft Auto IV</h2>
-            <p>Grand Theft Auto IV marcou um ponto alto na série, oferecendo uma experiência de mundo aberto rica em detalhes e com uma jogabilidade refinada. A franquia sempre foi conhecida por sua liberdade e caos, mas o GTA IV trouxe uma camada extra de realismo e profundidade, tornando-o um dos títulos mais memoráveis da série.</p>
+            <h2 id="color">A Jogabilidade Detalhada de Grand Theft Auto IV</h2>
+            <p id="color">Grand Theft Auto IV marcou um ponto alto na série, oferecendo uma experiência de mundo aberto rica em detalhes e com uma jogabilidade refinada. A franquia sempre foi conhecida por sua liberdade e caos, mas o GTA IV trouxe uma camada extra de realismo e profundidade, tornando-o um dos títulos mais memoráveis da série.</p>
 
-            <h3>Mecânicas de Jogo:</h3>
+            <h3 id="color">Mecânicas de Jogo:</h3>
             <ul class="topicos">
-                <li><b>Tiros:</b>O sistema de tiro foi aprimorado em relação aos jogos anteriores, com mais opções de armas e uma mecânica de cobertura mais tática.</li>
-                <li><b>Condução:</b>A física dos veículos é mais realista, exigindo mais habilidade do jogador para realizar manobras perigosas.</li>
-                <li><b>Sistema de cobertura:</b>O jogador pode se esconder atrás de objetos para se proteger durante tiroteios, adicionando uma camada extra de estratégia ao combate.</li>
-                <li><b>Progressão do personagem:</b>Niko pode ganhar habilidades em diversas áreas, como condução, tiro e força física, através de missões e atividades secundárias.</li>
-                <li><b>Minigames:</b>Além da campanha principal, há uma variedade de minigames para se divertir, como boliche, bilhar e jogos de azar.</li>
+                <li id="color"><b>Tiros:</b>O sistema de tiro foi aprimorado em relação aos jogos anteriores, com mais opções de armas e uma mecânica de cobertura mais tática.</li>
+                <li id="color"><b>Condução:</b>A física dos veículos é mais realista, exigindo mais habilidade do jogador para realizar manobras perigosas.</li>
+                <li id="color"><b>Sistema de cobertura:</b>O jogador pode se esconder atrás de objetos para se proteger durante tiroteios, adicionando uma camada extra de estratégia ao combate.</li>
+                <li id="color"><b>Progressão do personagem:</b>Niko pode ganhar habilidades em diversas áreas, como condução, tiro e força física, através de missões e atividades secundárias.</li>
+                <li id="color"><b>Minigames:</b>Além da campanha principal, há uma variedade de minigames para se divertir, como boliche, bilhar e jogos de azar.</li>
             </ul>
 
             <div class="imagem">
                 <img src="src/images/imagem-gtaiv3.jpg" alt="Imagem do Niko Belic">
             </div>
 
-            <h3>Elementos Inovadores:</h3>
+            <h3 id="color">Elementos Inovadores:</h3>
             <ul class="topicos">
-                <li><b>Sistema de relacionamento:</b>As ações do jogador afetam seus relacionamentos com outros personagens, podendo levar a resultados inesperados.</li>
-                <li><b>Sistema de honra:</b>As escolhas do jogador podem influenciar sua reputação na cidade, abrindo ou fechando portas para diferentes missões e oportunidades.</li>
+                <li id="color"><b>Sistema de relacionamento:</b>As ações do jogador afetam seus relacionamentos com outros personagens, podendo levar a resultados inesperados.</li>
+                <li id="color"><b>Sistema de honra:</b>As escolhas do jogador podem influenciar sua reputação na cidade, abrindo ou fechando portas para diferentes missões e oportunidades.</li>
             </ul>
 
-            <h3>Pontos Destaques:</h3>
+            <h3 id="color">Pontos Destaques:</h3>
             <ul class="topicos">
-                <li><b>Atmosfera:</b>A atmosfera densa e realista da cidade, combinada com a história envolvente, cria uma experiência imersiva.</li>
-                <li><b>Variedade:</b>GTA IV oferece uma grande variedade de atividades e missões, garantindo horas de diversão.</li>
-                <li><b>Realismo:</b>A física e os detalhes visuais do jogo contribuem para um senso de realismo impressionante.</li>
+                <li id="color"><b>Atmosfera:</b>A atmosfera densa e realista da cidade, combinada com a história envolvente, cria uma experiência imersiva.</li>
+                <li id="color"><b>Variedade:</b>GTA IV oferece uma grande variedade de atividades e missões, garantindo horas de diversão.</li>
+                <li id="color"><b>Realismo:</b>A física e os detalhes visuais do jogo contribuem para um senso de realismo impressionante.</li>
             </ul>
         </div>
 
@@ -153,29 +167,29 @@
         </div>
 
         <div class="conteudo-mundoAberto" id="conteudo-mundoAberto">
-            <h2>O Mundo Aberto de GTA IV: Uma Imersão em Liberty City</h2>
-            <p>Grand Theft Auto IV nos transporta para uma reimaginação sombria e realista de Nova York, chamada de Liberty City. O mundo aberto do jogo é um dos seus maiores destaques, oferecendo uma experiência imersiva e repleta de detalhes.</p>
+            <h2 id="color">O Mundo Aberto de GTA IV: Uma Imersão em Liberty City</h2>
+            <p id="color">Grand Theft Auto IV nos transporta para uma reimaginação sombria e realista de Nova York, chamada de Liberty City. O mundo aberto do jogo é um dos seus maiores destaques, oferecendo uma experiência imersiva e repleta de detalhes.</p>
 
-            <h3>Uma Cidade que Vive e Respira</h3>
+            <h3 id="color">Uma Cidade que Vive e Respira</h3>
             <ul class="topicos">
-                <li><b>Diversidade:</b>Liberty City é composta por diversos bairros, cada um com sua própria atmosfera, arquitetura e população. Desde os arranha-céus de Algonquin até as ruas mais perigosas de Bohan, cada área da cidade tem sua identidade única.</li>
-                <li><b>Ciclo dia e noite:</b>A cidade muda conforme o passar do tempo, com diferentes atividades ocorrendo durante o dia e a noite. Você pode presenciar a agitação do rush hour, a vida noturna vibrante e até mesmo tempestades que afetam a jogabilidade.</li>
-                <li><b>Trânsito realista:</b>O tráfego de veículos é dinâmico e realista, com diferentes tipos de carros, pedestres e até mesmo acidentes. Você pode se envolver em perseguições policiais épicas ou simplesmente apreciar a paisagem enquanto dirige.</li>
-                <li><b>Personagens e interações:</b>A cidade está cheia de personagens não-jogáveis (NPCs) com rotinas e personalidades distintas. Você pode interagir com eles de diversas formas, desde conversas casuais até missões secundárias.</li>
+                <li id="color"><b>Diversidade:</b>Liberty City é composta por diversos bairros, cada um com sua própria atmosfera, arquitetura e população. Desde os arranha-céus de Algonquin até as ruas mais perigosas de Bohan, cada área da cidade tem sua identidade única.</li>
+                <li id="color"><b>Ciclo dia e noite:</b>A cidade muda conforme o passar do tempo, com diferentes atividades ocorrendo durante o dia e a noite. Você pode presenciar a agitação do rush hour, a vida noturna vibrante e até mesmo tempestades que afetam a jogabilidade.</li>
+                <li id="color"><b>Trânsito realista:</b>O tráfego de veículos é dinâmico e realista, com diferentes tipos de carros, pedestres e até mesmo acidentes. Você pode se envolver em perseguições policiais épicas ou simplesmente apreciar a paisagem enquanto dirige.</li>
+                <li id="color"><b>Personagens e interações:</b>A cidade está cheia de personagens não-jogáveis (NPCs) com rotinas e personalidades distintas. Você pode interagir com eles de diversas formas, desde conversas casuais até missões secundárias.</li>
             </ul>
 
             <div class="imagem">
                 <img src="src/images/imagem-mapa.jpg" alt="Imagem do mapa do GTA IV">
             </div>
 
-            <h3>Liberdade para Explorar</h3>
+            <h3 id="color">Liberdade para Explorar</h3>
             <ul class="topicos">
-                <li><b>Exploração a pé ou de veículo:</b>Você pode explorar Liberty City a pé, de bicicleta, de carro, de moto ou até mesmo de helicóptero. A cidade oferece uma variedade de veículos para você escolher, desde carros esportivos até táxis.</li>
-                <li><b>Missões principais e secundárias:</b>Além da história principal, o jogo oferece uma infinidade de missões secundárias, como corridas, roubos e missões de taxi. Essas missões ajudam a enriquecer a experiência e desbloquear novas áreas da cidade.</li>
-                <li><b>Descobertas:</b>Liberty City esconde diversos segredos e locais escondidos para você encontrar, como lojas, bares, clubes, e até mesmo áreas restritas.</li>
+                <li id="color"><b>Exploração a pé ou de veículo:</b>Você pode explorar Liberty City a pé, de bicicleta, de carro, de moto ou até mesmo de helicóptero. A cidade oferece uma variedade de veículos para você escolher, desde carros esportivos até táxis.</li>
+                <li id="color"><b>Missões principais e secundárias:</b>Além da história principal, o jogo oferece uma infinidade de missões secundárias, como corridas, roubos e missões de taxi. Essas missões ajudam a enriquecer a experiência e desbloquear novas áreas da cidade.</li>
+                <li id="color"><b>Descobertas:</b>Liberty City esconde diversos segredos e locais escondidos para você encontrar, como lojas, bares, clubes, e até mesmo áreas restritas.</li>
             </ul>
 
-            <p>Em resumo, o mundo aberto de GTA IV é uma obra-prima da indústria dos videogames. A atenção aos detalhes, a liberdade de exploração e a atmosfera única fazem deste jogo uma experiência inesquecível para qualquer jogador.</p>
+            <p id="color">Em resumo, o mundo aberto de GTA IV é uma obra-prima da indústria dos videogames. A atenção aos detalhes, a liberdade de exploração e a atmosfera única fazem deste jogo uma experiência inesquecível para qualquer jogador.</p>
         </div>
 
         <div class="conteudo-gtaCompleteEdition">
@@ -219,8 +233,8 @@
             </div>
 
             <div class="sobreContato">
-                <h2>Muito Prazer!</h2>
-                <p>
+                <h2 id="color">Muito Prazer!</h2>
+                <p id="color">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab adipisci similique voluptatum sapiente eius? Consequatur et ad ea doloremque dolores a magnam facilis saepe, porro, culpa vel atque dolor
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis maiores voluptatum omnis ducimus magni exercitationem quod odio deserunt.
                 </p>

@@ -9,10 +9,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
 </head>
 <body>
+    <div class="sidebar" id="sidebar">
+        <div class="config">
+            <p>Configurações</p>
+            <button class="botao" id="fecharSidebar">X</button>
+        </div>
+
+        <div class="input">
+            <button class="campo">
+                <input type="checkbox" name="cor" id="cor">
+                <label for="cor">Mudar Tema</label>
+            </button>
+        </div>
+    </div>
+    <!---->
     <div class="topo">
         <div class="menuElogo">
             <div class="menu">
-                <span class="material-symbols-outlined">menu</span>
+                <span class="material-symbols-outlined" id="abrirSidebar">menu</span>
             </div>
             <div class="logo">
                 <img src="../images/logo.png" alt="Imagem escrito logotipo">
@@ -44,7 +58,7 @@
     <!---->
     <main class="conteudo-principal">
         <div class="principaisAspectos">
-            <h2>Principais Aspectos do Jogo</h2>
+            <h2 id="color">Principais Aspectos do Jogo</h2>
             <div class="aspectos">
                 <div class="aspecto">
                     <img src="../images/historia.png" alt="">
@@ -99,34 +113,34 @@
         </div>
 
         <div class="conteudo-gameplay" id="conteudo-gameplay">
-            <h2>As Mecânicas de Gangues em The Lost and Damned</h2>
-            <p>The Lost and Damned introduziu um sistema de gangues mais profundo e envolvente em comparação com os jogos anteriores da série Grand Theft Auto. Essa mecânica é fundamental para a narrativa da DLC, pois gira em torno das disputas internas e externas do clube de motoqueiros The Lost MC.</p>
+            <h2 id="color">As Mecânicas de Gangues em The Lost and Damned</h2>
+            <p id="color">The Lost and Damned introduziu um sistema de gangues mais profundo e envolvente em comparação com os jogos anteriores da série Grand Theft Auto. Essa mecânica é fundamental para a narrativa da DLC, pois gira em torno das disputas internas e externas do clube de motoqueiros The Lost MC.</p>
 
-            <h3>Como funciona:</h3>
+            <h3 id="color">Como funciona:</h3>
             <ul class="topicos">
-                <li><b>Hierarquia:</b>A gangue possui uma hierarquia bem definida, com líderes, membros de alto escalão e membros comuns. As decisões importantes são tomadas pelos líderes, e os membros devem seguir as ordens.</li>
-                <li><b>Respeito:</b>O respeito é fundamental dentro da gangue. Ao completar missões e realizar ações que beneficiam o clube, você ganha respeito dos outros membros, o que pode abrir novas oportunidades e fortalecer sua posição dentro da hierarquia.</li>
-                <li><b>Território:</b>Os Lost MC possuem diversos territórios espalhados por Liberty City. Defender esses territórios de outras gangues é uma parte crucial do jogo.</li>
-                <li><b>Missões de gangue:</b>Ao longo da história, você participará de diversas missões relacionadas às atividades da gangue, como roubos, assassinatos, guerras de território e eventos sociais.</li>
-                <li><b>Personalização:</b>É possível personalizar sua moto e sua aparência, o que permite expressar sua individualidade dentro da gangue.</li>
+                <li id="color"><b>Hierarquia:</b>A gangue possui uma hierarquia bem definida, com líderes, membros de alto escalão e membros comuns. As decisões importantes são tomadas pelos líderes, e os membros devem seguir as ordens.</li>
+                <li id="color"><b>Respeito:</b>O respeito é fundamental dentro da gangue. Ao completar missões e realizar ações que beneficiam o clube, você ganha respeito dos outros membros, o que pode abrir novas oportunidades e fortalecer sua posição dentro da hierarquia.</li>
+                <li id="color"><b>Território:</b>Os Lost MC possuem diversos territórios espalhados por Liberty City. Defender esses territórios de outras gangues é uma parte crucial do jogo.</li>
+                <li id="color"><b>Missões de gangue:</b>Ao longo da história, você participará de diversas missões relacionadas às atividades da gangue, como roubos, assassinatos, guerras de território e eventos sociais.</li>
+                <li id="color"><b>Personalização:</b>É possível personalizar sua moto e sua aparência, o que permite expressar sua individualidade dentro da gangue.</li>
             </ul>
 
             <div class="imagem">
                 <img src="../images/imagem-tlad.jpg" alt="Imagem do Johnny">
             </div>
 
-            <h3>A Importância das Mecânicas de Gangue na História:</h3>
+            <h3 id="color">A Importância das Mecânicas de Gangue na História:</h3>
             <ul class="topicos">
-                <li><b>Disputas internas:</b>A mecânica de gangue é central para as disputas internas entre os membros do Lost MC, como a rivalidade entre Johnny Klebitz e Billy Grey.</li>
-                <li><b>Ameaças externas:</b>As outras gangues de Liberty City representam uma ameaça constante aos Lost MC, e as mecânicas de gangue são utilizadas para representar as guerras de território e as alianças entre as diferentes facções.</li>
-                <li><b>Progressão da história:</b>A medida que você avança na história, sua posição dentro da gangue e suas relações com os outros membros evoluem, influenciando diretamente o desenrolar dos eventos.</li>
+                <li id="color"><b>Disputas internas:</b>A mecânica de gangue é central para as disputas internas entre os membros do Lost MC, como a rivalidade entre Johnny Klebitz e Billy Grey.</li>
+                <li id="color"><b>Ameaças externas:</b>As outras gangues de Liberty City representam uma ameaça constante aos Lost MC, e as mecânicas de gangue são utilizadas para representar as guerras de território e as alianças entre as diferentes facções.</li>
+                <li id="color"><b>Progressão da história:</b>A medida que você avança na história, sua posição dentro da gangue e suas relações com os outros membros evoluem, influenciando diretamente o desenrolar dos eventos.</li>
             </ul>
 
-            <h3>Alguns exemplos de como as mecânicas de gangue se manifestam no jogo:</h3>
+            <h3 id="color">Alguns exemplos de como as mecânicas de gangue se manifestam no jogo:</h3>
             <ul class="topicos">
-                <li><b>Reuniões:</b>Em algumas missões, você participará de reuniões da gangue, onde as decisões importantes são tomadas e os membros são informados sobre os próximos passos.</li>
-                <li><b>Guerras de território:</b>Você liderará sua gangue em diversas guerras de território, utilizando táticas e estratégias para derrotar os inimigos.</li>
-                <li><b>Eventos sociais:</b>A gangue também organiza eventos sociais, como corridas de moto e festas, que servem para fortalecer os laços entre os membros.</li>
+                <li id="color"><b>Reuniões:</b>Em algumas missões, você participará de reuniões da gangue, onde as decisões importantes são tomadas e os membros são informados sobre os próximos passos.</li>
+                <li id="color"><b>Guerras de território:</b>Você liderará sua gangue em diversas guerras de território, utilizando táticas e estratégias para derrotar os inimigos.</li>
+                <li id="color"><b>Eventos sociais:</b>A gangue também organiza eventos sociais, como corridas de moto e festas, que servem para fortalecer os laços entre os membros.</li>
             </ul>
         </div>
 
@@ -157,29 +171,29 @@
         </div>
 
         <div class="conteudo-mundoAberto" id="conteudo-mundoAberto">
-            <h2>O Mundo Aberto de The Lost and Damned</h2>
-            <p>The Lost and Damned oferece um mundo aberto que, embora seja parte do vasto cenário de Liberty City em GTA IV, apresenta algumas particularidades e limitações que se encaixam perfeitamente na atmosfera da DLC.</p>
+            <h2 id="color">O Mundo Aberto de The Lost and Damned</h2>
+            <p id="color">The Lost and Damned oferece um mundo aberto que, embora seja parte do vasto cenário de Liberty City em GTA IV, apresenta algumas particularidades e limitações que se encaixam perfeitamente na atmosfera da DLC.</p>
 
-            <h3>Um Mundo Concentrado:</h3>
+            <h3 id="color">Um Mundo Concentrado:</h3>
             <ul class="topicos">
-                <li><b>Foco nos Lost MC:</b>A maior parte da ação se concentra nos territórios controlados pelos Lost MC e nas áreas próximas. Isso cria uma sensação de imersão maior no universo da gangue, mas limita a exploração de outras partes da cidade.</li>
-                <li><b>Atividades relacionadas à gangue:</b>A maioria das atividades disponíveis no mundo aberto está diretamente ligada às ações da gangue. Você encontrará pontos de encontro, garagens para personalizar sua moto, e locais para participar de corridas e outras atividades relacionadas ao mundo dos motociclistas.</li>
+                <li id="color"><b>Foco nos Lost MC:</b>A maior parte da ação se concentra nos territórios controlados pelos Lost MC e nas áreas próximas. Isso cria uma sensação de imersão maior no universo da gangue, mas limita a exploração de outras partes da cidade.</li>
+                <li id="color"><b>Atividades relacionadas à gangue:</b>A maioria das atividades disponíveis no mundo aberto está diretamente ligada às ações da gangue. Você encontrará pontos de encontro, garagens para personalizar sua moto, e locais para participar de corridas e outras atividades relacionadas ao mundo dos motociclistas.</li>
             </ul>
 
-            <h3>Liberdade com Restrições:</h3>
+            <h3 id="color">Liberdade com Restrições:</h3>
             <ul class="topicos">
-                <li><b>Menos variedade:</b>Comparado ao mundo aberto de GTA IV, a DLC oferece menos variedade de atividades e locais a serem explorados. A ênfase está nas atividades relacionadas à gangue e na história principal.</li>
-                <li><b>Mais linearidade:</b>A progressão da história é mais linear em The Lost and Damned, com missões e objetivos bem definidos. Embora haja espaço para exploração, a narrativa guia o jogador de forma mais direcionada.</li>
+                <li id="color"><b>Menos variedade:</b>Comparado ao mundo aberto de GTA IV, a DLC oferece menos variedade de atividades e locais a serem explorados. A ênfase está nas atividades relacionadas à gangue e na história principal.</li>
+                <li id="color"><b>Mais linearidade:</b>A progressão da história é mais linear em The Lost and Damned, com missões e objetivos bem definidos. Embora haja espaço para exploração, a narrativa guia o jogador de forma mais direcionada.</li>
             </ul>
 
-            <h3>Elementos que enriquecem o mundo aberto:</h3>
+            <h3 id="color">Elementos que enriquecem o mundo aberto:</h3>
             <ul class="topicos">
-                <li><b>Personalização da moto:</b>A possibilidade de personalizar sua moto adiciona um elemento de personalização ao mundo aberto, incentivando os jogadores a explorar diferentes áreas para encontrar peças e acessórios.</li>
-                <li><b>Corridas de moto:</b>As corridas de moto são uma ótima maneira de explorar diferentes partes do mapa e testar as habilidades de pilotagem do jogador.</li>
-                <li><b>Eventos aleatórios:</b> mundo aberto é dinâmico, com eventos aleatórios como perseguições policiais e confrontos com outras gangues.</li>
+                <li id="color"><b>Personalização da moto:</b>A possibilidade de personalizar sua moto adiciona um elemento de personalização ao mundo aberto, incentivando os jogadores a explorar diferentes áreas para encontrar peças e acessórios.</li>
+                <li id="color"><b>Corridas de moto:</b>As corridas de moto são uma ótima maneira de explorar diferentes partes do mapa e testar as habilidades de pilotagem do jogador.</li>
+                <li id="color"><b>Eventos aleatórios:</b> mundo aberto é dinâmico, com eventos aleatórios como perseguições policiais e confrontos com outras gangues.</li>
             </ul>
 
-            <p>Em resumo, o mundo aberto de The Lost and Damned é uma versão mais focada e intensa do mundo de GTA IV. A limitação do mapa e a concentração nas atividades da gangue criam uma atmosfera mais claustrofóbica e realista, que se encaixa perfeitamente na temática da DLC.</p>
+            <p id="color">Em resumo, o mundo aberto de The Lost and Damned é uma versão mais focada e intensa do mundo de GTA IV. A limitação do mapa e a concentração nas atividades da gangue criam uma atmosfera mais claustrofóbica e realista, que se encaixa perfeitamente na temática da DLC.</p>
         </div>
 
         <div class="conteudo-gtaCompleteEdition">
@@ -201,8 +215,8 @@
             </div>
 
             <div class="sobreContato">
-                <h2>Muito Prazer!</h2>
-                <p>
+                <h2 id="color">Muito Prazer!</h2>
+                <p id="color">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab adipisci similique voluptatum sapiente eius? Consequatur et ad ea doloremque dolores a magnam facilis saepe, porro, culpa vel atque dolor
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis maiores voluptatum omnis ducimus magni exercitationem quod odio deserunt.
                 </p>
