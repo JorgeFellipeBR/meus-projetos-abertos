@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .cabecalho h1 {
+        font-size: 35px;
+    }
+
+    .conteudo-principal {
+        gap: 30px;
+    }
+
+    .conteudo-principal .botoes {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .cabecalho h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal {
+        gap: 10px;
+    }
+
+    .cartao .nome {
+        font-size: 18px;
+    }
+}
