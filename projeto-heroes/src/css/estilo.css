@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(80deg, #fd0c0c, #ffa600);
+}
+
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho h1 {
+    text-align: center;
+}
+
+.cabecalho h1 img {
+    width: 100px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.cartao-heroi {
+    display: none;
+    width: 330px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+}
+
+.cartao-heroi.aberto {
+    display: block;
+}
+
+.cartao-heroi .nome {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.cartao-heroi .cartao-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.cartao-heroi .cartao-imagem img {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.cartao-heroi .descricao .titulo {
+    color: #ffffff;
+    background-color: #272727;
+    padding: 10px;
+}
+
+.cartao-heroi .descricao .texto {
+    padding: 10px;
+    height: 100px;
+    text-align: justify;
+    overflow-y: auto;
+    border-radius: 0 0 10px 10px;
+    background-color: #ffffff;
+}
+
+.ciclope {
+    background-image: linear-gradient(to top, #0000ff, #ffc400);
+}
+
+.deadpool {
+    background-image: linear-gradient(to top, #000000, #ff0000);
+}
+
+.demolidor {
+    background-image: linear-gradient(to top, #ff0000, #8b0000);
+}
+
+.ferro {
+    background-image: linear-gradient(to top, #ff0000, #ffff00);
+}
+
+.magneto {
+    background-image: linear-gradient(to top, #ff0000, #800080);
+}
+
+.wolverine {
+    background-image: linear-gradient(to top, #000000, #ffff00);
+}

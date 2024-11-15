@@ -3,47 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
     <title>Projeto heroes</title>
 </head>
 <body>
-    <div class="imagem-titulo">
-        <img src="img/61054e8cc32c810004977250.png" alt="Logo da Marvel Comics">
-    </div>
+    <header class="cabecalho">
+        <h1><img src="src/images/logo-marvel.png" alt="Logo da Marvel Comics"></h1>
+    </header>
+    <!---->
+    <main class="conteudo-principal">
+        <div class="herois">
+            <div class="cartoes-herois">
 
-    <main>
-        <div class="icones">
-            <div class="ciclope">
-                <img onclick="Ciclope()" class="icones-tamanho" src="img/hero+mutant+x+++men+icon-1320166697456543835.png" alt="Ícone do Ciclope">
-            </div>
-            <div class="wolverine">
-                <img onclick="Wolverine()" class="icones-tamanho" src="img/marvel+super+hero+wolverine+icon-1320166754256786631.png" alt="Ícone do Wolverine">
-            </div>
-            <div class="deadpool">
-                <img onclick="Deadpool()" class="icones-tamanho" src="img/hero+marvel+super+hero+icon-1320166698072351976.png" alt="Ícone do Deadpool">
-            </div>
-            <div class="Demolidor">
-                <img onclick="Demolidor()" class="icones-tamanho" src="img/magneto__classic____png_by_dhv123_deobd4w-414w-2x.png" alt="Ícone do Homem de Demolidor">
-            </div>
-            <div class="Magneto">
-                <img onclick="Magneto()" class="icones-tamanho" src="img/guy+magneto+marvel+villain+icon-1320166695292309627.png" alt="Ícone do Magneto">
-            </div>
-            <div class="HomemDeFerro">
-                <img onclick="HomemDeFerro()" class="icones-tamanho" src="img/iron+man+marvel+super+hero+icon-1320166695193344033.png" alt="Ícone do Homem de Ferro">
+                <div class= "cartao-heroi ciclope aberto" id="cartao-ciclope">
+                    <h2 class="nome">Ciclope</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/ciclope.png" alt="imagem do Ciclope do X-men">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Scott Summers, mais conhecido como Ciclope, é um dos membros mais icônicos dos X-Men. Desde sua primeira aparição em 1963,ele se tornou um símbolo da luta pela coexistência pacífica entre mutantes e humanos.</p>
+                    </div>
+                </div>
+
+                <div class= "cartao-heroi deadpool" id="cartao-deadpool">
+                    <h2 class="nome">Deadpool</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/deadpool.png" alt="imagem do deadpool">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Deadpool, o anti-herói sarcástico da Marvel, é na verdade Wade Wilson, um ex-militar que se torna mercenário. Desesperado para curar seu câncer, ele participa de um experimento experimental que lhe concede um fator de cura regenerativo, mas o deixa terrivelmente desfigurado.</p>
+                    </div>
+                </div>
+
+                <div class= "cartao-heroi demolidor" id="cartao-demolidor">
+                    <h2 class="nome">Demolidor</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/demolidor.png" alt="imagem do demolidor">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Matt Murdock, um advogado cego desde a infância, usa seus sentidos aguçados para combater o crime na cozinha do inferno, bairro de Nova York, como o vigilante Demolidor.</p>
+                    </div>
+                </div>
+
+                <div class= "cartao-heroi ferro" id="cartao-ferro">
+                    <h2 class="nome">Homem de Ferro</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/homemDeferro.png" alt="imagem do Homem de Ferro">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Tony Stark, um bilionário playboy e gênio inventor, é sequestrado por terroristas no Afeganistão. Ferido por um estilhaço de bomba em seu peito, ele constrói uma armadura poderosa para escapar e proteger seu coração. Nasce assim o Homem de Ferro, que usa sua tecnologia para combater o crime e defender o mundo.</p>
+                    </div>
+                </div>
+
+                <div class= "cartao-heroi magneto" id="cartao-magneto">
+                    <h2 class="nome">Magneto</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/magneto.png" alt="imagem do Magneto">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Magneto, é um mutante com o poder de controlar campos magnéticos. Ele é um defensor radical dos direitos mutantes, muitas vezes entrando em conflito com os X-Men e outros heróis. Apesar de seus métodos extremos, Magneto é uma figura complexa e motivada por um desejo genuíno de proteger seu povo da opressão.</p>
+                    </div>
+                </div>
+
+                <div class= "cartao-heroi wolverine" id="cartao-wolverine">
+                    <h2 class="nome">Wolverine</h2>
+                    <div class="cartao-imagem">
+                        <img src="src/images/wolverine.png" alt="imagem do Wolverine">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Wolverine, também conhecido como Logan, é um personagem icônico dos X-Men da Marvel Comics. Ele é um mutante com diversas habilidades extraordinárias.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="imagens-heroes">
-            <div class="imagensHeroes">
-                <img class="imagem-heroes-tamanho" id="imagemHero" src="img/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg" alt="imagem de Interrogação">
-                <p id="detalhesDePersonagem">
-
-                </p>
-            </div>
-        </div>
+        <nav class="listagem">
+            <ul>
+                <li class="heroi ativo" id="ciclope">
+                    <img src="src/images/icone-ciclope.png" alt="icone do Ciclope">
+                    <span>Ciclope</span>
+                </li>
+            </ul>
+        </nav>
     </main>
-
-    <script src="js/script.js"></script>
+    <!---->
+    <script src="src/js/index.js"></script>
 </body>
 </html>
