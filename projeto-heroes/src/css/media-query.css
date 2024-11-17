@@ -1,103 +1,27 @@
-@media screen and (max-width: 1074px) {
-    .icones-tamanho {
-        width: 140px;
+@media screen and (max-width: 660px) {
+    .cabecalho {
+        display: none;
     }
 
-    .imagem-heroes-tamanho {
-        width: 160px;
-    }
-}
-
-@media screen and (max-width: 745px) {
-    .icones-tamanho {
-        width: 120px;
-    }
-
-    .imagem-heroes-tamanho {
-        width: 150px;
-    }
-
-    #detalhesDePersonagem {
-        font-size: 15px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    main {
+    .conteudo-principal {
         flex-direction: column;
-        width: 80%;
+        row-gap: 30px;
+        margin-top: 30px;
     }
 
-    .icones-tamanho {
-        width: 60px;
-        padding: 10px 0px;
-    }
-
-    .icones {
+    .listagem ul .heroi {
         width: 100%;
-        border-right: none;
-        border-bottom: 1px solid white;
+        padding: 5px 30px;
+        border-radius: 10px;
     }
 
-    .imagem-heroes-tamanho {
-        width: 120px;
-    }
-
-    .imagens-heroes {
-        width: 100%;
+    .listagem ul {
+        margin-bottom: 50px;
     }
 }
 
-@media screen and (max-width: 460px) {
-    .icones-tamanho {
-        width: 50px;
-        padding: 10px 0px;
-    }
-
-    .imagem-heroes-tamanho {
-        width: 100px;
-    }
-
-    #detalhesDePersonagem {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .imagem-titulo > img{
-        width: 100px;
-    }
-
-    .icones-tamanho {
-        width: 40px;
-        padding: 10px 0px;
-    }
-
-    .imagem-heroes-tamanho {
-        width: 100px;
-    }
-
-    #detalhesDePersonagem {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .imagem-titulo > img{
-        width: 100px;
-    }
-
-    .icones-tamanho {
-        width: 30px;
-        padding: 10px 0px;
-    }
-
-    .imagem-heroes-tamanho {
-        width: 100px;
-    }
-
-    #detalhesDePersonagem {
-        font-size: 12px;
+@media screen and (max-width: 370px) {
+    .cartoes-herois {
+        padding: 10px;
     }
 }
