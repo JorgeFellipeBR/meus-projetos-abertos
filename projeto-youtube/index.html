@@ -3,85 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Black</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_name"/>
 </head>
 <body>
-
-    <header>
-        <div class="barra-menu">
-            <div class="botao-menu">
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-            </div>
+    <header class="cabecalho">
+        <div class="menuElogo">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            <img src="src/images/logo-youtube.png" alt="Logo do YouTube">
         </div>
-
         <div class="barra-pesquisa">
-            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
-            <button>
+            <input type="text" name="campoTexto" id="campoTexto" placeholder="Pesquisar">
+            <button class="botaoPesquisa">
                 <span class="material-symbols-outlined">
                     search
                 </span>
             </button>
         </div>
-
-        <div class="barra-icones">
-            <div class="icone-enviar">
-                <span class="material-symbols-outlined">
-                    arrow_upward
-                </span>
-            </div>
-
-            <div class="icone-notificacao">
-                <span class="material-symbols-outlined">
-                    notifications
-                </span>
-            </div>
-
-            <div class="icone-logo">
-                <img src="img/logo.jpg" alt="logo do canal jorge droid do youtube">
-            </div>
+        <div class="opcoes">
+            <section>
+                <ul class="secao">
+                    <li>
+                        <span class="material-symbols-outlined">
+                            upgrade
+                        </span>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                    </li>
+                    <li>
+                        <img src="src/images/logo.jpg" alt="Logo do Canal Jorge Droid">
+                    </li>
+                </ul>
+            </section>
         </div>
     </header>
+    <!---->
+    <main class="conteudo-principal">
 
-    <section>
-        <div class="section-inicial">
-            <div class="section-div">
-                <span class="material-symbols-outlined">
-                    home
-                </span>
-                <p>Início</p>
-            </div>
-
-            <div class="section-div">
-                <span class="material-symbols-outlined">
-                    favorite
-                </span>
-                <p>Favoritos</p>
-            </div>
-
-            <div class="section-div">
-                <span class="material-symbols-outlined">
-                    subscriptions
-                </span>
-                <p>Inscriçôes</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div>
-
-        </div>
-
-        <hr>
-
-        <div>
-
-        </div>
-    </section>
-
+    </main>
+    <!---->
+    <script src="src/js/index.js"></script>
 </body>
 </html>

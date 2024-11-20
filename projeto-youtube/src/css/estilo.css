@@ -1,75 +1,94 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: black;
-    padding: 12px;
-    position: sticky;
-    top: 0;
+:root {
+    --preto: #0f0f0f;
+    --cinza: #808080;
+    --branco: #ffffff;
+}
+
+/* Começo do Cabeçalho */
+.cabecalho {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    column-gap: 150px;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    background-color: var(--preto);
 }
 
-.barra-pesquisa {
+.cabecalho .menuElogo {
     display: flex;
-    justify-content: center;
-    border: 2px solid gray;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.menuElogo span {
+    font-size: 28px;
+    color: var(--branco);
+}
+
+.menuElogo img {
+    width: 110px;
+}
+
+.cabecalho .barra-pesquisa {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid var(--branco);
     border-radius: 20px;
 }
 
-.barra-pesquisa > input {
-    width: 500px;
-    height: 40px;
-    padding: 15px;
-    background: transparent;
-    border: none;
-    outline: none;
+.barra-pesquisa input {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    color: var(--branco);
+    border: 0;
+    outline: 0;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffffff11;
 }
 
-.barra-pesquisa > button {
-    background-color: rgba(128, 128, 128, 0.822);
-    border: none;
-    outline: none;
-    border-radius: 0px 18px 18px 0px;
-    width: 60px;
+.barra-pesquisa button {
+    width: 10%;
+    border: 0;
+    color: var(--branco);
+    border-radius: 0 20px 20px 0;
+    background-color: #3a3535;
 }
 
-.barra-pesquisa > button:hover {
-    background-color: rgba(173, 173, 173, 0.863);
+.cabecalho .opcoes {
+    display: flex;
+    align-items: center;
 }
 
-.barra-icones {
+.cabecalho .opcoes .secao {
+    display: flex;
+    column-gap: 35px;
+    list-style-type: none;
+}
+
+.secao li {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
 }
 
-.icone-logo > img {
-    width: 35px;
-    border-radius: 100%;
+.secao li span {
+    color: var(--branco);
+    font-size: 28px;
 }
 
-section {
-    background-color: black;
-    width: 250px;
-    position: fixed;
-    left: 0;
-    display: flex;
-    flex-direction: column;
+.secao li img {
+    width: 30px;
+    border-radius: 20px;
 }
 
-.section-inicial {
-    margin: auto;
-}
-
-.section-div {
-    display: flex;
-    align-items: center;
-    column-gap: 30px;
-}
+/* Fim do Cabeçalho */
