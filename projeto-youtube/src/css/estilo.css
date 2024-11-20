@@ -16,9 +16,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 150px;
-    padding: 20px 40px;
-    position: sticky;
-    top: 0;
+    padding: 10px 40px;
     background-color: var(--preto);
 }
 
@@ -39,15 +37,22 @@
 
 .cabecalho .barra-pesquisa {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
     width: 100%;
-    border: 1px solid var(--branco);
+}
+
+.barra-pesquisa .campoPesquisa {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    border: 1px solid var(--cinza);
     border-radius: 20px;
 }
 
-.barra-pesquisa input {
+.campoPesquisa input {
     width: 90%;
-    padding: 12px;
+    padding: 10px 10px 10px 20px;
     font-size: 16px;
     color: var(--branco);
     border: 0;
@@ -56,12 +61,34 @@
     background-color: #ffffff11;
 }
 
-.barra-pesquisa button {
+.campoPesquisa button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10%;
+    padding: 5px 25px;
     border: 0;
     color: var(--branco);
     border-radius: 0 20px 20px 0;
     background-color: #3a3535;
+}
+
+.barra-pesquisa .microfone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.microfone button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #3a3535;
+    border: 0;
+    color: var(--branco);
+    border-radius: 50%;
 }
 
 .cabecalho .opcoes {
@@ -90,5 +117,70 @@
     width: 30px;
     border-radius: 20px;
 }
-
 /* Fim do Cabeçalho */
+
+/*-------------------------------------------------------*/
+
+/* Começo do Conteúdo Principal */
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+}
+
+.conteudo-principal .secaoPrincipal {
+    height: 100%;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: var(--preto);
+}
+
+.secaoPrincipal .opcoesSecao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.opcoesSecao li {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    width: 220px;
+    padding: 10px 10px 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.opcoesSecao li:hover {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.opcoesSecao li span {
+    font-size: 25px;
+    color: var(--branco);
+}
+
+.opcoesSecao li img {
+    width: 25px;
+}
+
+.opcoesSecao li label {
+    color: var(--branco);
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.opcoesSecao .voce {
+    column-gap: 5px;
+}
+
+.opcoesSecao .voce span {
+    font-size: 15px;
+}
+
+/* Fim do Conteúdo Principal */

@@ -17,12 +17,21 @@
             <img src="src/images/logo-youtube.png" alt="Logo do YouTube">
         </div>
         <div class="barra-pesquisa">
-            <input type="text" name="campoTexto" id="campoTexto" placeholder="Pesquisar">
-            <button class="botaoPesquisa">
-                <span class="material-symbols-outlined">
-                    search
-                </span>
-            </button>
+            <div class="campoPesquisa">
+                <input type="text" name="campoTexto" id="campoTexto" placeholder="Pesquisar">
+                <button class="botaoPesquisa">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
+            </div>
+            <div class="microfone">
+                <button>
+                    <span class="material-symbols-outlined">
+                        mic
+                    </span>
+                </button>
+            </div>
         </div>
         <div class="opcoes">
             <section>
@@ -46,7 +55,51 @@
     </header>
     <!---->
     <main class="conteudo-principal">
+        <section class="secaoPrincipal">
+            <ul class="opcoesSecao">
+                <li id="inicio">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <label for="inicio">Início</label>
+                </li>
+                <li id="shorts">
+                    <img src="src/images/shorts-youtube.png" alt="Logo do YouTube Shorts">
+                    <label for="shorts">Shorts</label>
+                </li>
+                <li id="inscricoes">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <label for="inscricoes">Inscrições</label>
+                </li>
+            </ul>
+            <hr>
+            <ul class="opcoesSecao">
+                <li id="foryou" class="voce">
+                    <label for="foryou">Você</label>
+                    <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span>
+                </li>
+                <li id="historico">
+                    <span class="material-symbols-outlined">
+                        history
+                    </span>
+                    <label for="historico">Histórico</label>
+                </li>
+                <li id="playlist">
+                    <span class="material-symbols-outlined">
+                        playlist_play
+                    </span>
+                    <label for="playlist">Playlist</label>
+                </li>
+            </ul>
+        </section>
 
+        <section class="areaPrincipal">
+
+        </section>
     </main>
     <!---->
     <script src="src/js/index.js"></script>
