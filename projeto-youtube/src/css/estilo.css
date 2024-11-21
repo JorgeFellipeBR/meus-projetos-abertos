@@ -38,7 +38,7 @@
 .cabecalho .barra-pesquisa {
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 5px;
     width: 100%;
 }
 
@@ -147,8 +147,8 @@
     display: flex;
     align-items: center;
     column-gap: 18px;
-    width: 220px;
-    padding: 10px 10px 10px 15px;
+    width: 240px;
+    padding: 8px 8px 8px 15px;
     border-radius: 20px;
     cursor: pointer;
     transition: .2s;
@@ -172,7 +172,7 @@
 }
 
 hr {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .opcoesSecao .voce {
@@ -181,6 +181,20 @@ hr {
 
 .opcoesSecao .voce span {
     font-size: 15px;
+}
+
+.opcoesSecao .titulo {
+    padding-left: 15px;
+    font-weight: bold;
+    color: var(--branco);
+}
+
+.opcoesSecao li .logoCanal {
+    border-radius: 50%;
+}
+
+.opcoesSecao li .nomeCanal {
+    font-size: 16px;
 }
 
 /* Fim do Conteúdo Principal */
