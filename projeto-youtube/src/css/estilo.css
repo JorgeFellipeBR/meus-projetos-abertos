@@ -129,6 +129,7 @@
 }
 
 .conteudo-principal .secaoPrincipal {
+    width: 20%;
     height: 100%;
     overflow-y: auto;
     padding: 15px;
@@ -146,10 +147,10 @@
 .opcoesSecao li {
     display: flex;
     align-items: center;
-    column-gap: 18px;
-    width: 240px;
+    column-gap: 15px;
+    width: 100%;
     padding: 8px 8px 8px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     transition: .2s;
 }
@@ -159,20 +160,21 @@
 }
 
 .opcoesSecao li span {
-    font-size: 25px;
+    font-size: 22px;
     color: var(--branco);
 }
 
 .opcoesSecao li img {
-    width: 25px;
+    width: 22px;
 }
 
 .opcoesSecao li label {
+    font-size: 15px;
     color: var(--branco);
 }
 
 hr {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .opcoesSecao .voce {
@@ -185,6 +187,7 @@ hr {
 
 .opcoesSecao .titulo {
     padding-left: 15px;
+    margin-bottom: 10px;
     font-weight: bold;
     color: var(--branco);
 }
@@ -194,7 +197,28 @@ hr {
 }
 
 .opcoesSecao li .nomeCanal {
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.opcoesSecao div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    gap: 5px;
+    width: 100%;
+}
+
+.opcoesSecao div a {
+    color: var(--cinza);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.opcoesSecao div a:hover {
+    text-decoration: underline;
 }
 
 /* Fim do Conteúdo Principal */
