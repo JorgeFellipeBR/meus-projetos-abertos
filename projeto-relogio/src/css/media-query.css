@@ -1,0 +1,41 @@
+@media screen and (max-width: 1074px) {
+    .container-principal {
+        width: 95%;
+    }
+
+    .relogio .timer {
+        padding: 40px 10px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-principal {
+        max-width: 400px;
+        height: 90%;
+        padding: 5px;
+    }
+
+    .relogio .timer {
+        padding: 30px 10px;
+        border-radius: 50%;
+    }
+
+    .container-principal .relogio {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .pontos {
+        display: none;
+    }
+
+    .timer .titulo {
+        width: 140px;
+        font-size: 20px;
+    }
+    
+    .hora,.minutos,.segundos,.milissegundos {
+        font-size: 35px;
+    }
+}

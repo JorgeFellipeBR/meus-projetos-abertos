@@ -3,39 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
     <title>Relógio Digital</title>
 </head>
 <body>
-    <div class="container">
-        <div class="hora">
-            <p class="titulo-hora">Horas</p>
-            <p id="idHora">00</p>
-        </div>
-        <span>
-            :
-        </span>
-        <div class="minutos">
-            <p class="titulo-minuto">Minutos</p>
-            <p id="idMinutos">00</p>
-        </div>
-        <span>
-            :
-        </span>
-        <div class="segundos">
-            <p class="titulo-segundos">Segundos</p>
-            <p id="idSegundos">00</p>
-        </div>
-        <span>
-            :
-        </span>
-        <div class="milissegundos">
-            <p class="titulo-milissegundos">Milissegundos</p>
-            <p id="idMilissegundos">000</p>
-        </div>
-    </div>
+    <main class="container-principal">
+        <ul class="relogio">
+            <li class="timer">
+                <span class="titulo">Hora</span>
+                <hr>
+                <span class="hora" id="hora">00</span>
+            </li>
+            <span class="pontos">
+                :
+            </span>
+            <li class="timer">
+                <span class="titulo">Minutos</span>
+                <hr>
+                <span class="minutos" id="minutos">00</span>
+            </li>
+            <span class="pontos">
+                :
+            </span>
+            <li class="timer">
+                <span class="titulo">Segundos</span>
+                <hr>
+                <span class="segundos" id="segundos">00</span>
+            </li>
+            <span class="pontos">
+                :
+            </span>
+            <li class="timer">
+                <span class="titulo">Milissegundos</span>
+                <hr>
+                <span class="milissegundos" id="milissegundos">000</span>
+            </li>
+        </ul>
+    </main>
 
-    <script src="js/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>
