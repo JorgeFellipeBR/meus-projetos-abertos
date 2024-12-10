@@ -17,102 +17,126 @@ body {
     background-size: cover;
 }
 
-main {
+.conteudo-principal {
     display: flex;
-    flex-direction: row;
-    width: 900px;
-    padding: 10px;
+    justify-content: center;
+    column-gap: 100px;
+    width: 80%;
     margin: 40px auto;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: rgba(137, 43, 226, 0.425);
 }
 
-.icones {
+.conteudo-principal .cartoes {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao {
+    display: none;
+    width: 330px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
+}
+
+.cartao.selecionado {
+    display: block;
+}
+
+.cartao h1 {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.cartao img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cartao .descricao h2 {
+    background-color: #4e4d4d;
+    padding: 5px;
+}
+
+.cartao .descricao p {
+    background-color: #ffffff;
+    height: 120px;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 0 0 10px 10px;
+    overflow-y: auto;
+}
+
+.conteudo-principal .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    list-style-type: none;
+}
+
+.icone {
+    display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
-    row-gap: 56px;
-    flex: 50%;
-    margin: auto;
-}
-
-.icones .icone-personagem {
-    width: 120px;
-    border-radius: 50%;
+    padding: 5px 20px;
+    border-radius: 10px 0 0 20px;
+    background-color: rgb(182, 193, 240);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.445);
     cursor: pointer;
+    transition: .2s;
 }
 
-.icones .icone-personagem:hover {
-    transform: scale(1.03);
+.icone:hover {
+    transform: scale(1.05);
+    background-color: rgb(233, 138, 204);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.719);
 }
 
-.cartao-divisao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-left: 2px solid white;
-    flex: 50%;
-}
-
-.cartao-divisao .cartao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px;
-    background-color: aqua;
-    width: 290px;
-    height: 520px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-li {
-    list-style: none;
-}
-
-.cartao .nomePersonagem {
-    background-color: black;
-    width: 100%;
-    padding: 8px;
-}
-
-.nomePersonagem #nome-personagem {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-}
-
-.cartao-divisao .imagemPersonagem {
-    width: 100%;
-}
-
-#imagem-personagem {
-    width: 100%;
-    max-height: 230px;
-}
-
-.cartao-divisao .descricaoPersonagem {
-    width: 100%;
-    height: 200px;
-}
-
-.descricaoPersonagem .descricao {
-    background-color: rgb(43, 41, 41);
-    padding: 8px;
-    color: white;
-    text-transform: uppercase;
+.icone .nome {
     font-weight: bold;
 }
 
-.descricaoPersonagem #descricao-personagem {
-    background-color: white;
-    padding: 5px;
-    text-align: justify;
-    height: 170px;
-    overflow: auto;
+.icones ul .icone img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.franklin {
+    background-image: url("../images/fundo-franklin.jpg");
+}
+
+.niko {
+    background-image: url("../images/fundo-niko.jpg");
+}
+
+.michael {
+    background-image: url("../images/fundo-michael.jpg");
+}
+
+.tommy {
+    background-image: url("../images/fundo-tommy.jpg");
+}
+
+.luis {
+    background-image: url("../images/fundo-luis.jpg");
+}
+
+.trevor {
+    background-image: url("../images/fundo-trevor.jpg");
 }

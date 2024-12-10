@@ -9,37 +9,76 @@
 </head>
 <body>
     
-    <main>
-        <div class="icones">
-            <img onclick="Franklin()" class="icone-personagem" src="src/images/icon-franklin.jpg" alt="imagem do franklin do gta 5">
-            <img onclick="Luis()" class="icone-personagem" src="src/images/icon-luis.jpg" alt=" imagem do luis do gta the ballad of gay tony">
-            <img onclick="Michael()" class="icone-personagem" src="src/images/icon-michael.jpg" alt="imagem do michael do gta 5">
-            <img onclick="Niko()" class="icone-personagem" src="src/images/icon-niko.jpg" alt="imagem no niko bellic do gta 4">
-            <img onclick="Tommy()" class="icone-personagem" src="src/images/icon-tommy.jpg" alt="imagem do tommy vercetti do gta vice city">
-            <img onclick="Trevor()" class="icone-personagem" src="src/images/icon-trevor.jpg" alt="imagem do trevor de gta 5">
+    <main class="conteudo-principal">
+        <div class="cartoes">
+            <div class="cartao selecionado franklin" id="cartao-franklin">
+                <h1>Franklin</h1>
+                <img src="src/images/imagem-franklin.jpg" alt="Imagem do Franklin do GTA 5">
+                <div class="descricao">
+                    <h2>Descrição</h2>
+                    <p>
+                        Franklin Clinton é um dos três protagonistas
+                        de GTA V. Um jovem gângster que está
+                        tentando crescer na vida, sua vida muda para
+                        sempre quando encontra Michael De Santa,
+                        durante um serviço que envolvia roubar
+                        seu carro. Ele começa a entrar e se
+                        aprofundar nas profundezas do crime, com
+                        escândalos políticos e governamentais o
+                        seguindo, enquanto é forçado a se afastar da
+                        própria gangue, as Famílias…
+                    </p>
+                </div>
+            </div>
+
+            <div class="cartao niko" id="cartao-niko">
+                <h1>Niko Belic</h1>
+                <img src="src/images/imagem-niko.jpg" alt="Imagem do Niko Belic do GTA 4">
+                <div class="descricao">
+                    <h2>Descrição</h2>
+                    <p>
+                        Niko Bellic é um personagem da
+                        franquia de jogos eletrônicos Grand Theft
+                        Auto, da qual é o protagonista jogável
+                        do sexto principal jogo da série, Grand
+                        Theft Auto IV, de 2008. Ele é um ex-soldado
+                        da Guerra Civil Sérvia que se mudou para
+                        Liberty City para escapar de seu passado e
+                        viver o Sonho Americano.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="cartao-divisao">
-            <ul class="cartao" id="fundo">
-                <li class="nomePersonagem" >
-                    <p id="nome-personagem">
-                        Nome do Personagem
-                    </p>
+        <div class="icones">
+            <ul>
+                <li class="icone" id="franklin">
+                    <img src="src/images/icon-franklin.jpg" alt="Icone do Frankiln">
+                    <span class="nome">Frankiln</span>
                 </li>
-                <li class="imagemPersonagem">
-                    <img id="imagem-personagem" src="src/images/Imagem-base.jpg" alt="imagem de interrogação">
+                <li class="icone" id="niko">
+                    <img src="src/images/icon-niko.jpg" alt="Icone do Niko Belic">
+                    <span class="nome">Niko Belic</span>
                 </li>
-                <li class="descricaoPersonagem" >
-                    <div class="descricao">Descrição</div>
-                    <p id="descricao-personagem">
-                       Descrição do Personagem
-                    </p>
+                <li class="icone" id="michael">
+                    <img src="src/images/icon-michael.jpg" alt="Icone do Michael">
+                    <span class="nome">Michael</span>
+                </li>
+                <li class="icone" id="tommy">
+                    <img src="src/images/icon-tommy.jpg" alt="Icone do Tommy Vercetti">
+                    <span class="nome">Tommy</span>
+                </li>
+                <li class="icone" id="luis">
+                    <img src="src/images/icon-luis.jpg" alt="Icone do Luis">
+                    <span class="nome">Luis</span>
+                </li>
+                <li class="icone" id="trevor">
+                    <img src="src/images/icon-trevor.jpg" alt="Icone do Trevor Philips">
+                    <span class="nome">Trevor</span>
                 </li>
             </ul>
         </div>
     </main>
-
-    <audio id="meuAudio" muted src="src/audio/musica-gta.mp3" type="audio/mp3"></audio>
 
     <script src="src/js/script.js"></script>
 </body>
