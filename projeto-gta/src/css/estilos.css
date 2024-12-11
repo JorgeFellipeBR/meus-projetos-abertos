@@ -91,7 +91,7 @@ body {
     column-gap: 10px;
     padding: 5px 20px;
     border-radius: 10px 0 0 20px;
-    background-color: rgb(182, 193, 240);
+    background-color: rgb(142, 158, 231);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.445);
     cursor: pointer;
     transition: .2s;
@@ -99,7 +99,6 @@ body {
 
 .icone:hover {
     transform: scale(1.05);
-    background-color: rgb(233, 138, 204);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.719);
 }
 
@@ -112,10 +111,9 @@ body {
     border-radius: 50%;
 }
 
-
-
-
-
+.icone.ativo {
+    background-color: rgb(233, 138, 204);
+}
 
 .franklin {
     background-image: url("../images/fundo-franklin.jpg");
