@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+    .conteudo-principal .itens {
+        column-gap: 15px;
+    }
+
+    .cartoes {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .cartao {
+        width: 100%;
+    }
+
+    .itens .botao {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cartao .nome {
+        font-size: 22px;
+    }
+
+    .descricao span {
+        font-size: 14px;
+    }
+}
