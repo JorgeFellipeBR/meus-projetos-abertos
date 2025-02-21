@@ -6,9 +6,33 @@
     <title>Projeto To-Do List</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="src/css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
 </head>
 <body>
-    
+    <main class="conteudo-principal">
+        <div class="barra-adicionar">
+            <input type="text" name="texto" id="texto" placeholder="Digite aqui">
+            <button class="botao" id="botao">Adicionar</button>
+        </div>
+        <!---->
+        <div class="tarefas">
+            <div class="tarefa">
+                <input type="radio" name="trf" id="trf">
+                <span class="tarefaTexto">aaaaaaa</span>
+                <div class="editar">
+                    <span class="material-symbols-outlined">
+                        edit_note
+                    </span>
+                </div>
+                <button class="remover" id="remover">
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
+                </button>
+            </div>
+        </div>
+    </main>
+
     <script src="src/js/index.js"></script>
 </body>
 </html>
