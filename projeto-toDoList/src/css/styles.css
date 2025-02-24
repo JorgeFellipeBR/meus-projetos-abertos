@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 30px;
     border: 2px solid black;
     border-radius: 20px;
 }
@@ -47,7 +48,66 @@
     background-color: #046b00;
 }
 
+.conteudo-principal .tarefas {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
 .tarefa {
     display: flex;
     flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+}
+
+.radio,.editar,.remover {
+    width: 10%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editar {
+    background-color: #2323c9;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.editar:hover {
+    background-color: #0000ff;
+}
+
+.remover {
+    background-color: #df1818;
+    color: white;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.remover:hover {
+    background-color: #ff0000;
+}
+
+.tarefaTexto {
+
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 5px;
+    overflow-x: auto;
+}
+
+.mark {
+    text-decoration: line-through;
+}
+
+.fundoVerde {
+    background-color: #81ce81;
 }
