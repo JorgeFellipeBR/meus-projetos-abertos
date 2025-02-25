@@ -8,32 +8,32 @@ let contador = 0;
 
 botao.addEventListener("click", () => {
     let campoTextoValor = campoTexto.value;
-    contador++;
     campoTexto.value = "";
 
-    let novoItem = `
-        <div class="tarefa" id="${contador}">
-            <div class="radio">
-                <input type="radio" name="trf" id="trf">
+    if (campoTextoValor != "" && campoTextoValor != null && campoTextoValor != undefined) {
+
+        contador++;
+
+        let novoItem = `
+            <div class="tarefa" id="${contador}">
+                <div class="radio">
+                    <input type="checkbox" name="trf" onclick="marcaTarefa(${contador})">
+                </div>
+                <span class="tarefaTexto" id="tarefaTexto">${campoTextoValor}</span>
+                <button class="editar" id="editar">
+                    <span class="material-symbols-outlined">
+                        edit_note
+                    </span>
+                </button>
+                <button class="remover" onclick="(eliminarElemento(${contador}))">
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
+                </button>
             </div>
-            <span class="tarefaTexto" id="tarefaTexto">${campoTextoValor}</span>
-            <button class="editar" id="editar">
-                <span class="material-symbols-outlined">
-                    edit_note
-                </span>
-            </button>
-            <button class="remover" onclick="(eliminarElemento(${contador}))">
-                <span class="material-symbols-outlined">
-                    delete
-                </span>
-            </button>
-        </div>
-    `;
+        `;
 
-    tarefas.innerHTML += novoItem;
-
-    if (campoTextoValor == "") {
-        alert("Campo vazio!");
+        tarefas.innerHTML += novoItem;
     }
 })
 
